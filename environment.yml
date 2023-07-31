@@ -1,0 +1,11 @@
+name: nxs
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - matplotlib
+  - lmfit
+  - h5py
+  - git
