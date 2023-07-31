@@ -1,3 +1,3 @@
 # nxs-computational-tutorial
 
-`conda env update --file environment.yml`
+`conda env create --file environment.yml`
