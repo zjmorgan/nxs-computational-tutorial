@@ -2,10 +2,12 @@ name: nxs
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.10
   - numpy
   - scipy
   - matplotlib
   - lmfit
   - h5py
   - git
+  - jupyter
+  - pillow
