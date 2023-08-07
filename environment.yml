@@ -11,3 +11,4 @@ dependencies:
   - git
   - jupyter
   - pillow
+  - pandas
