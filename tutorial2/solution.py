@@ -9,7 +9,7 @@ import h5py
 
 # --- load data ---
 
-f = h5py.File('../data/total.nxs', mode='r')
+f = h5py.File('../data/elastic.nxs', mode='r')
 
 ws = f['mantid_workspace_1/workspace/']
 d_spacing_bin_edges = ws['axis1'][()]
@@ -25,6 +25,8 @@ f.close()
 
 d_spacing = 0.5*(d_spacing_bin_edges[1:]+d_spacing_bin_edges[:-1])
 
+#np.savetxt('../data/elastic.csv', np.column_stack([d_spacing,counts,errors]), delimiter=',')
+
 fig, ax = plt.subplots(1,1)
 ax.errorbar(d_spacing, counts, yerr=errors, fmt='.', label='data')
 ax.legend(shadow=True)
@@ -35,7 +37,7 @@ ax.minorticks_on()
 # --- define model ---
 
 def model(d, A, mu, sigma, B, c):
-    
+
     return A*np.exp(-0.5*(d-mu)**2/sigma**2)+B+c*d
 
 A, mu, sigma, B, c = 800, 16, 0.3, 100, 0
@@ -83,9 +85,9 @@ print('c     = {:8.3f} ± {:5.3f}'.format(popt[4],perr[4]))
 # --- define weighted least squares problem ---
 
 def weighted_deviations(x, d, counts, errors):
-  
+
     A, mu, sigma, B, c = x
-    
+
     return residual(d, counts, A, mu, sigma, B, c)/errors
 
 sol = scipy.optimize.least_squares(weighted_deviations, x0=p0,
@@ -97,14 +99,14 @@ vals = sol.x
 J = sol.jac
 cov = np.linalg.inv(J.T.dot(J))
 
-sig = np.sqrt(np.diag(cov))
+err = np.sqrt(np.diag(cov))
 
 print('Fitted uncertanties as 1-std using least_squares')
-print('A     = {:8.3f} ± {:5.3f}'.format(vals[0],sig[0]))
-print('mu    = {:8.3f} ± {:5.3f}'.format(vals[1],sig[1]))
-print('sigma = {:8.3f} ± {:5.3f}'.format(vals[2],sig[2]))
-print('B     = {:8.3f} ± {:5.3f}'.format(vals[3],sig[3]))
-print('c     = {:8.3f} ± {:5.3f}'.format(vals[4],sig[4]))
+print('A     = {:8.3f} ± {:5.3f}'.format(vals[0],err[0]))
+print('mu    = {:8.3f} ± {:5.3f}'.format(vals[1],err[1]))
+print('sigma = {:8.3f} ± {:5.3f}'.format(vals[2],err[2]))
+print('B     = {:8.3f} ± {:5.3f}'.format(vals[3],err[3]))
+print('c     = {:8.3f} ± {:5.3f}'.format(vals[4],err[4]))
 
 chi2dof = np.sum(sol.fun**2)/(sol.fun.size-sol.x.size)
 cov *= chi2dof
@@ -120,7 +122,7 @@ print('c     = {:8.3f} ± {:5.3f}'.format(vals[4],stderr[4]))
 
 # ---
 
-# --- use constranied optimization ---
+# --- use constrained optimization ---
 
 def weighted_residual(params, d, counts, errors):
 
