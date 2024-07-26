@@ -8,8 +8,8 @@
  
 
 ### Prerequisites (MG: write guide for windows and mac) 
- * Install anaconda 
- * Install git 
+ * ~~Install anaconda~~ Run tutorial on analysis (need to create nxs environment @jean) 
+ * ~~Install git~~ 
  * Download repo for tutorial (inc. data and notebook) 
  * Activate conda env  
  * Install matplotlib, sciPy, lmfit, h5py 
