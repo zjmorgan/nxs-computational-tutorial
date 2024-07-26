@@ -7,12 +7,9 @@
 ## Agenda 
  
 
-### Prerequisites (MG: write guide for windows and mac) 
- * ~~Install anaconda~~ Run tutorial on analysis (need to create nxs environment @jean) 
- * ~~Install git~~ 
- * Download repo for tutorial (inc. data and notebook) 
- * Activate conda env  
- * Install matplotlib, sciPy, lmfit, h5py 
+### Set up 
+1. Log into `analysis.sns.gov`
+2. Run script provided by Jean B. in /EXAMPLES/NXS2024/
 
 ### Intro presentation (powerpoint) 30-45 mins. 
  * What is scientific software (MG) 
