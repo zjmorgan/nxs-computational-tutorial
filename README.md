@@ -1,11 +1,6 @@
-# nxs-computational-tutorial
+# nxs-computational-tutorial-2024
 
-`conda env create --file environment.yml`
-
-
-
-## Agenda 
- 
+## Agenda
 
 ### Set up 
 1. Log into `analysis.sns.gov`
