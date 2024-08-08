@@ -15,6 +15,10 @@
 
 ### Tutorial  
 
+#### Malcolm tutorial
+
+* create a git repo
+
 #### Jean tutorial
  
  * Open notebook, Explanation of notebook (shift enter, shift enter...) 
