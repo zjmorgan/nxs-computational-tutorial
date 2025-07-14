@@ -1,17 +1,18 @@
-# nxs-computational-tutorial-2024
+# nxs-computational-tutorial-2025
 
 ## Agenda
 
 ### Set up 
 1. Log into `analysis.sns.gov`
-2. Run script provided by Jean B. in /EXAMPLES/NXS2024/
+2. Run script `start_jupyter.sh` provided by Jean B. in /EXAMPLES/NXS2025/
 
 ### Intro presentation (powerpoint) 30-45 mins. 
  * What is scientific software (MG) 
  * Version control: Git and GitHub (MG) 
- * Environment management (python env and conda, pip) (JB): 
+ * Environment management (pip and pixi) (JB): 
  * Running python options: scripts, python interpreter, IDE, jupyter (JB) 
  * Intro to file systems at ORNL. Where are my neutron data stored? Oncat (AS) 
+ * AI (YZ)
 
 ### Tutorial  
 
@@ -39,3 +40,6 @@ BREAK (AS)
  * Advanced Ex 2: histogram events (with log binning) 
  * Super Advanced Ex 3: Re-use fitting script, fit peaks, plot position versus experimental log.   
 
+### AI Tutorial 3
+
+ * TBD
