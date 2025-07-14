@@ -42,4 +42,27 @@ BREAK (AS)
 
 ### AI Tutorial 3
 
- * TBD
+ * Brief intro to LLM and relevant techniques (e.g., `RAG`), from a research user point of view.
+ * Tools for research
+    * `notebookLM`
+    * `NapkinAI`
+    * `Perplexity`
+    * image generation models/tools.
+ * Tools for programming
+    * Web-based chat services (`chat.com`, `gemini`, `claude`, etc.)
+    * IDEs, such as `Cursor`, `GitHub Copilot` in `VSCode`, `Zed`, `VSCodium`, ... you name it...
+    * CLI tools, `Codex` by `OpenAI`, `Claude Code` by `Anthropic`, `Gemini CLI` by `Google`, etc.
+ * Integrations
+    * Unified platform for LLMs, e.g., `OpenRouter`
+    * Self-hosted options
+        * Personal service with access to LLMs through APIs.
+        * Pay by API call, counting by input/output tokens
+        * `LobeHub`, `Dify`, etc.
+        * `Dify` as an example for demo
+            * LLMs access
+            * Tools integration, search via `Google` & `Perplexity`, `Slack`, `DALL-E`, etc.
+            * Personal knowledge base for RAG
+    * Implementation in workflow platforms
+        * `n8n` as an example
+            * Chat to GPT models in `Slack`
+            * AI summary and auto posting
