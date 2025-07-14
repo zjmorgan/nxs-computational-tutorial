@@ -9,7 +9,7 @@
 ### Intro presentation (powerpoint) 30-45 mins. 
  * What is scientific software (MG) 
  * Version control: Git and GitHub (MG) 
- * Environment management (pip and pixi) (JB): 
+ * Environment management (micromamba, pixi and pip) (JB): 
  * Running python options: scripts, python interpreter, IDE, jupyter (JB) 
  * Intro to file systems at ORNL. Where are my neutron data stored? Oncat (AS) 
  * AI (YZ)
