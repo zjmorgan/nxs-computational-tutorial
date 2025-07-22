@@ -40,7 +40,7 @@ BREAK (AS)
  * Advanced Ex 2: histogram events (with log binning) 
  * Super Advanced Ex 3: Re-use fitting script, fit peaks, plot position versus experimental log.   
 
-### AI Tutorial 3
+#### AI Tutorial 3
 
  * Brief intro to LLM and relevant techniques (e.g., `RAG`), from a research user point of view.
  * Tools for research
@@ -66,3 +66,22 @@ BREAK (AS)
         * `n8n` as an example
             * Chat to GPT models in `Slack`
             * AI summary and auto posting
+
+#### References
+
+__Environment management___
+* [micromamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html)
+* [pixi](https://pixi.sh/latest/)
+* [pip](https://pypi.org/project/pip/)
+
+__Python editors__
+* [jupyter](https://jupyter.org/)
+* [visual code](https://code.visualstudio.com/)
+* [pycharm](https://www.jetbrains.com/pycharm/)
+
+__Python librairies__
+* [matplotlib](https://matplotlib.org/)
+* [numpy](https://numpy.org/)
+* [widgets](https://ipywidgets.readthedocs.io/en/latest/index.html)
+
+__
