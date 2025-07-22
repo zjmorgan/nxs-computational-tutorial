@@ -69,7 +69,7 @@ BREAK (AS)
 
 #### References
 
-__Environment management___
+__Environment management__
 * [micromamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html)
 * [pixi](https://pixi.sh/latest/)
 * [pip](https://pypi.org/project/pip/)
