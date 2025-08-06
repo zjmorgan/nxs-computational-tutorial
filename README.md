@@ -4,7 +4,7 @@
 
 ### Set up 
 1. Log into `analysis.sns.gov`
-2. Run script `start_jupyter.sh` provided by Jean B. in /EXAMPLES/NXS2025/
+2. Run script `start_jupyter.sh` provided by Jean B. in /SNS/EXAMPLES/NXS2025/
 
 ### Intro presentation (powerpoint) 30-45 mins. 
  * What is scientific software (MG) 
