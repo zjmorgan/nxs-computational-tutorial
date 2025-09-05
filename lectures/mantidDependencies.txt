@@ -1,0 +1,2368 @@
+finddata==0.10.1
+  ├─ plotly 5.24.1 [required: <6]
+  │  ├─ packaging 25.0 [required: any]
+  │  │  └─ python 3.11.13 [required: any]
+  │  ├─ python 3.11.13 [required: >=3.9]
+  │  └─ tenacity 9.1.2 [required: >=6.2.0]
+  │     └─ python 3.11.13 [required: >=3.9]
+  ├─ python 3.11.13 [required: any]
+  └─ urllib3 2.5.0 [required: any]
+     ├─ brotli-python 1.1.0 [required: >=1.0.9]
+     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+     │  ├─ libgcc 15.1.0 [required: >=13]
+     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+     │  │  └─ _openmp_mutex 4.5 [required: >=4.5]
+     │  │     ├─ _libgcc_mutex 0.1 [required: 0.1, conda_forge]
+     │  │     └─ libgomp 15.1.0 [required: >=7.5.0]
+     │  │        └─ __glibc [required: >=2.17,<3.0.a0]
+     │  ├─ libstdcxx 15.1.0 [required: >=13]
+     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+     │  │  └─ libgcc 15.1.0 [required: 15.1.0, h767d61c_4]
+     │  │     └─ dependencies of libgcc displayed above
+     │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+     │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+     ├─ h2 4.2.0 [required: >=4,<5]
+     │  ├─ hpack 4.1.0 [required: >=4.1,<5]
+     │  │  └─ python 3.11.13 [required: >=3.9]
+     │  ├─ hyperframe 6.1.0 [required: >=6.1,<7]
+     │  │  └─ python 3.11.13 [required: >=3.9]
+     │  └─ python 3.11.13 [required: >=3.9]
+     ├─ pysocks 1.7.1 [required: >=1.5.6,<2.0,!=1.5.7]
+     │  ├─ __unix [required: any]
+     │  └─ python 3.11.13 [required: >=3.9]
+     ├─ python 3.11.13 [required: >=3.9]
+     └─ zstandard 0.23.0 [required: >=0.18.0]
+        ├─ __glibc [required: >=2.17,<3.0.a0]
+        ├─ cffi 1.17.1 [required: >=1.11]
+        │  ├─ __glibc [required: >=2.17,<3.0.a0]
+        │  ├─ libffi 3.4.6 [required: >=3.4,<4.0a0]
+        │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+        │  │  └─ libgcc 15.1.0 [required: >=13]
+        │  │     └─ dependencies of libgcc displayed above
+        │  ├─ libgcc 15.1.0 [required: >=13]
+        │  │  └─ dependencies of libgcc displayed above
+        │  ├─ pycparser 2.22 [required: any]
+        │  │  └─ python 3.11.13 [required: any]
+        │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+        │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+        ├─ libgcc 15.1.0 [required: >=14]
+        │  └─ dependencies of libgcc displayed above
+        ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+        └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+ipympl==0.9.7
+  ├─ ipython 9.4.0 [required: <10]
+  │  ├─ __unix [required: any]
+  │  ├─ pexpect 4.9.0 [required: >4.3]
+  │  │  ├─ ptyprocess 0.7.0 [required: >=0.5]
+  │  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ decorator 5.2.1 [required: any]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ exceptiongroup 1.3.0 [required: any]
+  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  └─ typing_extensions 4.15.0 [required: >=4.6.0]
+  │  │     └─ python 3.11.13 [required: any]
+  │  ├─ ipython_pygments_lexers 1.1.1 [required: any]
+  │  │  ├─ pygments 2.19.2 [required: any]
+  │  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ jedi 0.19.2 [required: >=0.16]
+  │  │  ├─ parso 0.8.5 [required: >=0.8.3,<0.9.0]
+  │  │  │  └─ python 3.11.13 [required: any]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ matplotlib-inline 0.1.7 [required: any]
+  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  └─ traitlets 5.14.3 [required: any]
+  │  │     └─ python 3.11.13 [required: >=3.9]
+  │  ├─ pickleshare 0.7.5 [required: any]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ prompt-toolkit 3.0.51 [required: >=3.0.41,<3.1.0]
+  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  └─ wcwidth 0.2.13 [required: any]
+  │  │     └─ python 3.11.13 [required: >=3.9]
+  │  ├─ pygments 2.19.2 [required: >=2.4.0]
+  │  │  └─ dependencies of pygments displayed above
+  │  ├─ python 3.11.13 [required: any]
+  │  ├─ stack_data 0.6.3 [required: any]
+  │  │  ├─ asttokens 3.0.0 [required: any]
+  │  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  │  ├─ executing 2.2.0 [required: any]
+  │  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  │  ├─ pure_eval 0.2.3 [required: any]
+  │  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ traitlets 5.14.3 [required: >=5.13.0]
+  │  │  └─ dependencies of traitlets displayed above
+  │  └─ typing_extensions 4.15.0 [required: >=4.6]
+  │     └─ dependencies of typing_extensions displayed above
+  ├─ ipywidgets 8.1.7 [required: >=7.6.0,<9]
+  │  ├─ comm 0.2.3 [required: >=0.1.3]
+  │  │  └─ python 3.11.13 [required: any]
+  │  ├─ ipython 9.4.0 [required: >=6.1.0]
+  │  │  └─ dependencies of ipython displayed above
+  │  ├─ jupyterlab_widgets 3.0.15 [required: >=3.0.15,<3.1.0]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ python 3.11.13 [required: >=3.9]
+  │  ├─ traitlets 5.14.3 [required: >=4.3.1]
+  │  │  └─ dependencies of traitlets displayed above
+  │  └─ widgetsnbextension 4.0.14 [required: >=4.0.14,<4.1.0]
+  │     └─ python 3.11.13 [required: >=3.9]
+  ├─ matplotlib-base 3.9.4 [required: >=3.5.0,<4]
+  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  ├─ certifi 2025.8.3 [required: >=2020.06.20]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ contourpy 1.3.3 [required: >=1.0.1]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  ├─ numpy 2.1.3 [required: >=1.25]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libblas 3.9.0 [required: >=3.9.0,<4.0a0]
+  │  │  │  │  └─ libopenblas 0.3.30 [required: >=0.3.30,<1.0a0]
+  │  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │     ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │  │     ├─ libgfortran 15.1.0 [required: any]
+  │  │  │  │     │  └─ libgfortran5 15.1.0 [required: 15.1.0, hcea5267_4]
+  │  │  │  │     │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │     │     └─ libgcc 15.1.0 [required: >=15.1.0]
+  │  │  │  │     │        └─ dependencies of libgcc displayed above
+  │  │  │  │     └─ libgfortran5 15.1.0 [required: >=14.3.0]
+  │  │  │  │        └─ dependencies of libgfortran5 displayed above
+  │  │  │  ├─ libcblas 3.9.0 [required: >=3.9.0,<4.0a0]
+  │  │  │  │  └─ libblas 3.9.0 [required: 3.9.0, 34_h59b9bed_openblas]
+  │  │  │  │     └─ dependencies of libblas displayed above
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ liblapack 3.9.0 [required: >=3.9.0,<4.0a0]
+  │  │  │  │  └─ libblas 3.9.0 [required: 3.9.0, 34_h59b9bed_openblas]
+  │  │  │  │     └─ dependencies of libblas displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ cycler 0.12.1 [required: >=0.10]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ fonttools 4.59.1 [required: >=4.22.0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ brotli 1.1.0 [required: any]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ brotli-bin 1.1.0 [required: 1.1.0, hb9d3cd8_3]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libbrotlidec 1.1.0 [required: 1.1.0, hb9d3cd8_3]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ libbrotlicommon 1.1.0 [required: 1.1.0, hb9d3cd8_3]
+  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libbrotlienc 1.1.0 [required: 1.1.0, hb9d3cd8_3]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ libbrotlicommon 1.1.0 [required: 1.1.0, hb9d3cd8_3]
+  │  │  │  │  │  │  └─ dependencies of libbrotlicommon displayed above
+  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libbrotlidec 1.1.0 [required: 1.1.0, hb9d3cd8_3]
+  │  │  │  │  └─ dependencies of libbrotlidec displayed above
+  │  │  │  ├─ libbrotlienc 1.1.0 [required: 1.1.0, hb9d3cd8_3]
+  │  │  │  │  └─ dependencies of libbrotlienc displayed above
+  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ munkres 1.1.4 [required: any]
+  │  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  └─ unicodedata2 16.0.0 [required: >=15.1.0]
+  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │     │  └─ dependencies of libgcc displayed above
+  │  │     ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │     └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ freetype 2.13.3 [required: >=2.12.1,<3.0a0]
+  │  │  ├─ libfreetype 2.13.3 [required: 2.13.3, ha770c72_1]
+  │  │  │  └─ libfreetype6 2.13.3 [required: >=2.13.3]
+  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libpng 1.6.50 [required: >=1.6.47,<1.7.0a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │     └─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │        └─ dependencies of libgcc displayed above
+  │  │  │     └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │        └─ dependencies of libzlib displayed above
+  │  │  └─ libfreetype6 2.13.3 [required: 2.13.3, h48d6fc4_1]
+  │  │     └─ dependencies of libfreetype6 displayed above
+  │  ├─ kiwisolver 1.4.9 [required: >=1.3.1]
+  │  │  ├─ python 3.11.13 [required: any]
+  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  └─ dependencies of libgcc displayed above
+  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  └─ dependencies of libstdcxx displayed above
+  │  ├─ numpy 2.1.3 [required: >=1.23]
+  │  │  └─ dependencies of numpy displayed above
+  │  ├─ packaging 25.0 [required: >=20.0]
+  │  │  └─ dependencies of packaging displayed above
+  │  ├─ pillow 11.3.0 [required: >=8]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ lcms2 2.17 [required: >=2.17,<3.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libjpeg-turbo 3.1.0 [required: >=3.0.0,<4.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  └─ libtiff 4.7.0 [required: >=4.7.0,<4.8.0a0]
+  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     ├─ lerc 4.0.0 [required: >=4.0.0,<5.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  └─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │     └─ dependencies of libstdcxx displayed above
+  │  │  │     ├─ libdeflate 1.24 [required: >=1.24,<1.25.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │     └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libjpeg-turbo 3.1.0 [required: >=3.1.0,<4.0a0]
+  │  │  │     │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  │     ├─ liblzma 5.8.1 [required: >=5.8.1,<6.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │     └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │     │  └─ dependencies of libstdcxx displayed above
+  │  │  │     ├─ libwebp-base 1.6.0 [required: >=1.6.0,<2.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  └─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │     └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │  └─ dependencies of libzlib displayed above
+  │  │  │     └─ zstd 1.5.7 [required: >=1.5.7,<1.6.0a0]
+  │  │  │        ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │        ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │        │  └─ dependencies of libgcc displayed above
+  │  │  │        ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │        │  └─ dependencies of libstdcxx displayed above
+  │  │  │        └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │           └─ dependencies of libzlib displayed above
+  │  │  ├─ libfreetype 2.13.3 [required: >=2.13.3]
+  │  │  │  └─ dependencies of libfreetype displayed above
+  │  │  ├─ libfreetype6 2.13.3 [required: >=2.13.3]
+  │  │  │  └─ dependencies of libfreetype6 displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ libjpeg-turbo 3.1.0 [required: >=3.1.0,<4.0a0]
+  │  │  │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  ├─ libtiff 4.7.0 [required: >=4.7.0,<4.8.0a0]
+  │  │  │  └─ dependencies of libtiff displayed above
+  │  │  ├─ libwebp-base 1.6.0 [required: >=1.5.0,<2.0a0]
+  │  │  │  └─ dependencies of libwebp-base displayed above
+  │  │  ├─ libxcb 1.17.0 [required: >=1.17.0,<2.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ pthread-stubs 0.4 [required: any]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  ├─ xorg-libxau 1.0.12 [required: >=1.0.11,<2.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  └─ xorg-libxdmcp 1.1.5 [required: any]
+  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     └─ libgcc 15.1.0 [required: >=13]
+  │  │  │        └─ dependencies of libgcc displayed above
+  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  ├─ openjpeg 2.5.3 [required: >=2.5.3,<3.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libpng 1.6.50 [required: >=1.6.50,<1.7.0a0]
+  │  │  │  │  └─ dependencies of libpng displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ libtiff 4.7.0 [required: >=4.7.0,<4.8.0a0]
+  │  │  │  │  └─ dependencies of libtiff displayed above
+  │  │  │  └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     └─ dependencies of libzlib displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  └─ tk 8.6.13 [required: >=8.6.13,<8.7.0a0]
+  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │     │  └─ dependencies of libgcc displayed above
+  │  │     └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │        └─ dependencies of libzlib displayed above
+  │  ├─ pyparsing 3.2.3 [required: >=2.3.1]
+  │  │  └─ python 3.11.13 [required: any]
+  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  ├─ python-dateutil 2.9.0.post0 [required: >=2.7]
+  │  │  ├─ python 3.11.13 [required: any]
+  │  │  └─ six 1.17.0 [required: >=1.5]
+  │  │     └─ python 3.11.13 [required: any]
+  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ qhull 2020.2 [required: >=2020.2,<2020.3.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  └─ libgcc 15.1.0 [required: 15.1.0, h767d61c_4]
+  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  └─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │     └─ libstdcxx 15.1.0 [required: 15.1.0, h8f9b012_4]
+  │  │        └─ dependencies of libstdcxx displayed above
+  │  └─ tk 8.6.13 [required: >=8.6.13,<8.7.0a0]
+  │     └─ dependencies of tk displayed above
+  ├─ numpy 2.1.3 [required: any]
+  │  └─ dependencies of numpy displayed above
+  ├─ pillow 11.3.0 [required: any]
+  │  └─ dependencies of pillow displayed above
+  ├─ python 3.11.13 [required: any]
+  └─ traitlets 5.14.3 [required: <6]
+     └─ dependencies of traitlets displayed above
+pandas==2.3.2
+  ├─ __glibc [required: >=2.17,<3.0.a0]
+  ├─ libgcc 15.1.0 [required: >=14]
+  │  └─ dependencies of libgcc displayed above
+  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  └─ dependencies of libstdcxx displayed above
+  ├─ numpy 2.1.3 [required: >=1.23,<3]
+  │  └─ dependencies of numpy displayed above
+  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  ├─ python-dateutil 2.9.0.post0 [required: >=2.8.2]
+  │  └─ dependencies of python-dateutil displayed above
+  ├─ python-tzdata 2025.2 [required: >=2022.7]
+  │  └─ python 3.11.13 [required: >=3.9]
+  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  └─ pytz 2025.2 [required: >=2020.1]
+     └─ python 3.11.13 [required: >=3.9]
+mslice==2.12
+  ├─ ipython 9.4.0 [required: any]
+  │  └─ dependencies of ipython displayed above
+  ├─ mantid 6.13.1.2 [required: any]
+  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  ├─ _openmp_mutex 4.5 [required: >=4.5]
+  │  │  └─ dependencies of _openmp_mutex displayed above
+  │  ├─ euphonic 1.4.5 [required: >=1.4.3,<2.0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ _openmp_mutex 4.5 [required: >=4.5]
+  │  │  │  └─ dependencies of _openmp_mutex displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ numpy 2.1.3 [required: >=1.24]
+  │  │  │  └─ dependencies of numpy displayed above
+  │  │  ├─ packaging 25.0 [required: any]
+  │  │  │  └─ dependencies of packaging displayed above
+  │  │  ├─ pint 0.25 [required: >=0.22]
+  │  │  │  ├─ python 3.11.13 [required: any]
+  │  │  │  ├─ platformdirs 4.4.0 [required: >=2.1.0]
+  │  │  │  │  └─ python 3.11.13 [required: any]
+  │  │  │  ├─ flexcache 0.3 [required: >=0.3]
+  │  │  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  │  │  └─ typing-extensions 4.15.0 [required: any]
+  │  │  │  │     └─ typing_extensions 4.15.0 [required: ==4.15.0, pyhcf101f3_0]
+  │  │  │  │        └─ dependencies of typing_extensions displayed above
+  │  │  │  ├─ flexparser 0.4 [required: >=0.4]
+  │  │  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  │  │  ├─ typing-extensions 4.15.0 [required: any]
+  │  │  │  │  │  └─ dependencies of typing-extensions displayed above
+  │  │  │  │  └─ typing_extensions 4.15.0 [required: any]
+  │  │  │  │     └─ dependencies of typing_extensions displayed above
+  │  │  │  └─ typing_extensions 4.15.0 [required: >=4.0.0]
+  │  │  │     └─ dependencies of typing_extensions displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  ├─ scipy 1.16.1 [required: >=1.10]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libblas 3.9.0 [required: >=3.9.0,<4.0a0]
+  │  │  │  │  └─ dependencies of libblas displayed above
+  │  │  │  ├─ libcblas 3.9.0 [required: >=3.9.0,<4.0a0]
+  │  │  │  │  └─ dependencies of libcblas displayed above
+  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libgfortran 15.1.0 [required: any]
+  │  │  │  │  └─ dependencies of libgfortran displayed above
+  │  │  │  ├─ libgfortran5 15.1.0 [required: >=14.3.0]
+  │  │  │  │  └─ dependencies of libgfortran5 displayed above
+  │  │  │  ├─ liblapack 3.9.0 [required: >=3.9.0,<4.0a0]
+  │  │  │  │  └─ dependencies of liblapack displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ numpy 2.1.3 [required: >=1.25.2]
+  │  │  │  │  └─ dependencies of numpy displayed above
+  │  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  ├─ seekpath 2.1.0 [required: >=1.1.0]
+  │  │  │  ├─ numpy 2.1.3 [required: >=1.0]
+  │  │  │  │  └─ dependencies of numpy displayed above
+  │  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  │  └─ spglib 2.6.0 [required: >=1.9.4]
+  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     ├─ importlib-resources 6.5.2 [required: any]
+  │  │  │     │  ├─ importlib_resources 6.5.2 [required: >=6.5.2,<6.5.3.0a0]
+  │  │  │     │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  │     │  │  └─ zipp 3.23.0 [required: >=3.1.0]
+  │  │  │     │  │     └─ python 3.11.13 [required: >=3.9]
+  │  │  │     │  └─ python 3.11.13 [required: >=3.9]
+  │  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libgfortran 15.1.0 [required: any]
+  │  │  │     │  └─ dependencies of libgfortran displayed above
+  │  │  │     ├─ libgfortran5 15.1.0 [required: >=13.3.0]
+  │  │  │     │  └─ dependencies of libgfortran5 displayed above
+  │  │  │     ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │  └─ dependencies of libstdcxx displayed above
+  │  │  │     ├─ numpy 2.1.3 [required: >=1.19,<3]
+  │  │  │     │  └─ dependencies of numpy displayed above
+  │  │  │     ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  │     ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  │     └─ typing-extensions 4.15.0 [required: any]
+  │  │  │        └─ dependencies of typing-extensions displayed above
+  │  │  ├─ spglib 2.6.0 [required: >=2.1.0]
+  │  │  │  └─ dependencies of spglib displayed above
+  │  │  ├─ threadpoolctl 3.6.0 [required: >=3.0.0]
+  │  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  │  └─ toolz 1.0.0 [required: >=0.12.1]
+  │  │     └─ python 3.11.13 [required: >=3.9]
+  │  ├─ gsl 2.8 [required: >=2.8,<2.9.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libblas 3.9.0 [required: >=3.9.0,<4.0a0]
+  │  │  │  └─ dependencies of libblas displayed above
+  │  │  ├─ libcblas 3.9.0 [required: >=3.9.0,<4.0a0]
+  │  │  │  └─ dependencies of libcblas displayed above
+  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │     └─ dependencies of libgcc displayed above
+  │  ├─ h5py 3.14.0 [required: any]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ cached-property 1.5.2 [required: any]
+  │  │  │  └─ cached_property 1.5.2 [required: >=1.5.2,<1.5.3.0a0]
+  │  │  │     └─ python 3.11.13 [required: >=3.6]
+  │  │  ├─ hdf5 1.14.6 [required: >=1.14.6,<1.14.7.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libaec 1.1.4 [required: >=1.1.4,<2.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  └─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │     └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ libcurl 8.14.1 [required: >=8.14.1,<9.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ krb5 1.21.3 [required: >=1.21.3,<1.22.0a0]
+  │  │  │  │  │  ├─ keyutils 1.6.3 [required: >=1.6.1,<2.0a0]
+  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libedit 3.1.20250104 [required: >=3.1.20191231,<4.0a0]
+  │  │  │  │  │  │  ├─ ncurses 6.5 [required: >=6.5,<7.0a0]
+  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  │  │  │  └─ openssl 3.5.2 [required: >=3.3.1,<4.0a0]
+  │  │  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │     ├─ ca-certificates 2025.8.3 [required: any]
+  │  │  │  │  │     │  └─ __unix [required: any]
+  │  │  │  │  │     └─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │        └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libnghttp2 1.64.0 [required: >=1.64.0,<2.0a0]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ c-ares 1.34.5 [required: >=1.32.3,<2.0a0]
+  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libev 4.33 [required: >=4.33,<5.0a0]
+  │  │  │  │  │  │  └─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │     └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  │  │  └─ openssl 3.5.2 [required: >=3.3.2,<4.0a0]
+  │  │  │  │  │     └─ dependencies of openssl displayed above
+  │  │  │  │  ├─ libssh2 1.11.1 [required: >=1.11.1,<2.0a0]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  │  │  └─ openssl 3.5.2 [required: >=3.5.0,<4.0a0]
+  │  │  │  │  │     └─ dependencies of openssl displayed above
+  │  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  │  ├─ openssl 3.5.2 [required: >=3.5.0,<4.0a0]
+  │  │  │  │  │  └─ dependencies of openssl displayed above
+  │  │  │  │  └─ zstd 1.5.7 [required: >=1.5.7,<1.6.0a0]
+  │  │  │  │     └─ dependencies of zstd displayed above
+  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libgfortran 15.1.0 [required: any]
+  │  │  │  │  └─ dependencies of libgfortran displayed above
+  │  │  │  ├─ libgfortran5 15.1.0 [required: >=14.3.0]
+  │  │  │  │  └─ dependencies of libgfortran5 displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  └─ openssl 3.5.2 [required: >=3.5.1,<4.0a0]
+  │  │  │     └─ dependencies of openssl displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ numpy 2.1.3 [required: >=1.21,<3]
+  │  │  │  └─ dependencies of numpy displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ hdf4 4.2.15 [required: >=4.2.15,<4.3.0a0]
+  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  ├─ libjpeg-turbo 3.1.0 [required: >=3.0.0,<4.0a0]
+  │  │  │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  └─ libzlib 1.3.1 [required: >=1.2.13,<2.0.0a0]
+  │  │     └─ dependencies of libzlib displayed above
+  │  ├─ hdf5 1.14.6 [required: >=1.14.6,<1.15.0a0]
+  │  │  └─ dependencies of hdf5 displayed above
+  │  ├─ jemalloc 5.2.0 [required: 5.2.0.*]
+  │  │  ├─ libgcc-ng 15.1.0 [required: >=7.3.0]
+  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  └─ libstdcxx-ng 15.1.0 [required: >=7.3.0]
+  │  │     └─ dependencies of libstdcxx-ng displayed above
+  │  ├─ joblib 1.5.1 [required: any]
+  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  └─ setuptools 80.9.0 [required: any]
+  │  │     └─ python 3.11.13 [required: >=3.9]
+  │  ├─ jsoncpp 1.9.6 [required: >=1.9.6,<1.9.7.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  └─ libstdcxx 15.1.0 [required: >=13]
+  │  │     └─ dependencies of libstdcxx displayed above
+  │  ├─ libboost 1.88.0 [required: >=1.88.0,<1.89.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ bzip2 1.0.8 [required: >=1.0.8,<2.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  └─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │     └─ dependencies of libgcc-ng displayed above
+  │  │  ├─ icu 75.1 [required: >=75.1,<76.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  └─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │     └─ dependencies of libstdcxx-ng displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ liblzma 5.8.1 [required: >=5.8.1,<6.0a0]
+  │  │  │  └─ dependencies of liblzma displayed above
+  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  └─ zstd 1.5.7 [required: >=1.5.7,<1.6.0a0]
+  │  │     └─ dependencies of zstd displayed above
+  │  ├─ libboost-python 1.88.0 [required: >=1.88.0,<1.89.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libboost 1.88.0 [required: 1.88.0, hed09d94_1]
+  │  │  │  └─ dependencies of libboost displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  ├─ numpy 2.1.3 [required: >=1.23,<3]
+  │  │  │  └─ dependencies of numpy displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  └─ dependencies of libgcc displayed above
+  │  ├─ libgl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libglvnd 1.7.0 [required: 1.7.0, ha4b6fd6_2]
+  │  │  │  └─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  └─ libglx 1.7.0 [required: 1.7.0, ha4b6fd6_2]
+  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     ├─ libglvnd 1.7.0 [required: 1.7.0, ha4b6fd6_2]
+  │  │     │  └─ dependencies of libglvnd displayed above
+  │  │     └─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │        ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │        ├─ libgcc 15.1.0 [required: >=13]
+  │  │        │  └─ dependencies of libgcc displayed above
+  │  │        └─ libxcb 1.17.0 [required: >=1.17.0,<2.0a0]
+  │  │           └─ dependencies of libxcb displayed above
+  │  ├─ libglu 9.0.3 [required: >=9.0.3,<9.1.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ libopengl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  └─ libglvnd 1.7.0 [required: 1.7.0, ha4b6fd6_2]
+  │  │  │     └─ dependencies of libglvnd displayed above
+  │  │  └─ libstdcxx 15.1.0 [required: >=13]
+  │  │     └─ dependencies of libstdcxx displayed above
+  │  ├─ libopenblas 0.3.30 [required: >=0.3.27,<1.0a0]
+  │  │  └─ dependencies of libopenblas displayed above
+  │  ├─ librdkafka 2.11.1 [required: >=2.11.1,<2.12.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ cyrus-sasl 2.1.28 [required: >=2.1.28,<3.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ krb5 1.21.3 [required: >=1.21.3,<1.22.0a0]
+  │  │  │  │  └─ dependencies of krb5 displayed above
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libntlm 1.8 [required: >=1.8,<2.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ libxcrypt 4.4.36 [required: >=4.4.36]
+  │  │  │  │  └─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │     └─ dependencies of libgcc-ng displayed above
+  │  │  │  └─ openssl 3.5.2 [required: >=3.5.0,<4.0a0]
+  │  │  │     └─ dependencies of openssl displayed above
+  │  │  ├─ libcurl 8.14.1 [required: >=8.14.1,<9.0a0]
+  │  │  │  └─ dependencies of libcurl displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  ├─ lz4-c 1.10.0 [required: >=1.10.0,<1.11.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  └─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     └─ dependencies of libstdcxx displayed above
+  │  │  ├─ openssl 3.5.2 [required: >=3.5.2,<4.0a0]
+  │  │  │  └─ dependencies of openssl displayed above
+  │  │  └─ zstd 1.5.7 [required: >=1.5.7,<1.6.0a0]
+  │  │     └─ dependencies of zstd displayed above
+  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  └─ dependencies of libstdcxx displayed above
+  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  └─ dependencies of libzlib displayed above
+  │  ├─ muparser 2.3.4 [required: >=2.3.4,<2.4.0a0]
+  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  └─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │     └─ dependencies of libstdcxx-ng displayed above
+  │  ├─ numpy 2.1.3 [required: >=2.0.2,<2.2]
+  │  │  └─ dependencies of numpy displayed above
+  │  ├─ occt 7.9.1 [required: >=7.9.1,<7.9.2.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ fontconfig 2.15.0 [required: >=2.15.0,<3.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ freetype 2.13.3 [required: >=2.12.1,<3.0a0]
+  │  │  │  │  └─ dependencies of freetype displayed above
+  │  │  │  ├─ libexpat 2.7.1 [required: >=2.6.3,<3.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  └─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libuuid 2.38.1 [required: >=2.38.1,<3.0a0]
+  │  │  │  │  └─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │     └─ dependencies of libgcc-ng displayed above
+  │  │  │  └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     └─ dependencies of libzlib displayed above
+  │  │  ├─ fonts-conda-ecosystem 1 [required: any]
+  │  │  │  └─ fonts-conda-forge 1 [required: any]
+  │  │  │     ├─ font-ttf-dejavu-sans-mono 2.37 [required: any]
+  │  │  │     ├─ font-ttf-inconsolata 3.000 [required: any]
+  │  │  │     ├─ font-ttf-source-code-pro 2.038 [required: any]
+  │  │  │     └─ font-ttf-ubuntu 0.83 [required: any]
+  │  │  ├─ freeimage 3.18.0 [required: >=3.18.0,<3.19.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ imath 3.1.12 [required: >=3.1.12,<3.1.13.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │     └─ dependencies of libzlib displayed above
+  │  │  │  ├─ jxrlib 1.1 [required: >=1.1,<1.2.0a0]
+  │  │  │  │  └─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │     └─ dependencies of libgcc-ng displayed above
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libjpeg-turbo 3.1.0 [required: >=3.0.0,<4.0a0]
+  │  │  │  │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  │  ├─ libpng 1.6.50 [required: >=1.6.44,<1.7.0a0]
+  │  │  │  │  └─ dependencies of libpng displayed above
+  │  │  │  ├─ libraw 0.21.4 [required: >=0.21.3,<0.22.0a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  ├─ _openmp_mutex 4.5 [required: >=4.5]
+  │  │  │  │  │  └─ dependencies of _openmp_mutex displayed above
+  │  │  │  │  ├─ libjpeg-turbo 3.1.0 [required: >=3.0.0,<4.0a0]
+  │  │  │  │  │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  │  ├─ jasper 4.2.8 [required: >=4.2.5,<5.0a0]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ freeglut 3.2.2 [required: >=3.2.2,<4.0a0]
+  │  │  │  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  │  │  │  │  ├─ libxcb 1.17.0 [required: >=1.16,<2.0.0a0]
+  │  │  │  │  │  │  │  └─ dependencies of libxcb displayed above
+  │  │  │  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.9,<2.0a0]
+  │  │  │  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  │  │  ├─ xorg-libxau 1.0.12 [required: >=1.0.11,<2.0a0]
+  │  │  │  │  │  │  │  └─ dependencies of xorg-libxau displayed above
+  │  │  │  │  │  │  ├─ xorg-libxext 1.3.6 [required: >=1.3.4,<2.0a0]
+  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  │  └─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  │  │  │  │     └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  │  │  ├─ xorg-libxfixes 6.0.1 [required: any]
+  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  │  └─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  │  │  │  │     └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  │  │  └─ xorg-libxi 1.8.2 [required: any]
+  │  │  │  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │     ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  │  │  │     │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  │  │     ├─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │  │  │  │  │     │  └─ dependencies of xorg-libxext displayed above
+  │  │  │  │  │  │     └─ xorg-libxfixes 6.0.1 [required: >=6.0.1,<7.0a0]
+  │  │  │  │  │  │        └─ dependencies of xorg-libxfixes displayed above
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libglu 9.0.3 [required: >=9.0.3,<9.1.0a0]
+  │  │  │  │  │  │  └─ dependencies of libglu displayed above
+  │  │  │  │  │  └─ libjpeg-turbo 3.1.0 [required: >=3.1.0,<4.0a0]
+  │  │  │  │  │     └─ dependencies of libjpeg-turbo displayed above
+  │  │  │  │  └─ lcms2 2.17 [required: >=2.17,<3.0a0]
+  │  │  │  │     └─ dependencies of lcms2 displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ libtiff 4.7.0 [required: >=4.7.0,<4.8.0a0]
+  │  │  │  │  └─ dependencies of libtiff displayed above
+  │  │  │  ├─ libwebp-base 1.6.0 [required: >=1.4.0,<2.0a0]
+  │  │  │  │  └─ dependencies of libwebp-base displayed above
+  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  ├─ openexr 3.3.5 [required: >=3.3.1,<3.4.0a0]
+  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libdeflate 1.24 [required: >=1.24,<1.25.0a0]
+  │  │  │  │  │  └─ dependencies of libdeflate displayed above
+  │  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  │  └─ imath 3.1.12 [required: >=3.1.12,<3.1.13.0a0]
+  │  │  │  │     └─ dependencies of imath displayed above
+  │  │  │  └─ openjpeg 2.5.3 [required: >=2.5.2,<3.0a0]
+  │  │  │     └─ dependencies of openjpeg displayed above
+  │  │  ├─ freetype 2.13.3 [required: any]
+  │  │  │  └─ dependencies of freetype displayed above
+  │  │  ├─ libfreetype 2.13.3 [required: >=2.13.3]
+  │  │  │  └─ dependencies of libfreetype displayed above
+  │  │  ├─ libfreetype6 2.13.3 [required: >=2.13.3]
+  │  │  │  └─ dependencies of libfreetype6 displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ libgl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  └─ dependencies of libgl displayed above
+  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  ├─ rapidjson 1.1.0.post20240409 [required: any]
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  └─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.12,<2.0a0]
+  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  └─ xorg-libxt 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │     │  └─ dependencies of libgcc displayed above
+  │  │     ├─ xorg-libice 1.1.2 [required: >=1.1.1,<2.0a0]
+  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     │  └─ libgcc 15.1.0 [required: >=13]
+  │  │     │     └─ dependencies of libgcc displayed above
+  │  │     ├─ xorg-libsm 1.2.6 [required: >=1.2.4,<2.0a0]
+  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │     │  ├─ libuuid 2.38.1 [required: >=2.38.1,<3.0a0]
+  │  │     │  │  └─ dependencies of libuuid displayed above
+  │  │     │  └─ xorg-libice 1.1.2 [required: >=1.1.2,<2.0a0]
+  │  │     │     └─ dependencies of xorg-libice displayed above
+  │  │     └─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │        └─ dependencies of xorg-libx11 displayed above
+  │  ├─ orsopy 1.2.1 [required: 1.2.1.*]
+  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  └─ pyyaml 6.0.2 [required: >=5.4.1]
+  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │     │  └─ dependencies of libgcc displayed above
+  │  │     ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │     ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │     └─ yaml 0.2.5 [required: >=0.2.5,<0.3.0a0]
+  │  │        ├─ libgcc 15.1.0 [required: >=14]
+  │  │        │  └─ dependencies of libgcc displayed above
+  │  │        └─ __glibc [required: >=2.17,<3.0.a0]
+  │  ├─ poco 1.14.2 [required: >=1.14.2,<1.14.3.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  ├─ openssl 3.5.2 [required: >=3.5.0,<4.0a0]
+  │  │  │  └─ dependencies of openssl displayed above
+  │  │  └─ unixodbc 2.3.12 [required: >=2.3.12,<2.4.0a0]
+  │  │     ├─ libedit 3.1.20250104 [required: >=3.1.20191231,<3.2.0a0]
+  │  │     │  └─ dependencies of libedit displayed above
+  │  │     ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │     │  └─ dependencies of libgcc-ng displayed above
+  │  │     ├─ libiconv 1.18 [required: >=1.17,<2.0a0]
+  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     │  └─ libgcc 15.1.0 [required: >=14]
+  │  │     │     └─ dependencies of libgcc displayed above
+  │  │     └─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │        └─ dependencies of libstdcxx-ng displayed above
+  │  ├─ pycifrw 4.4.6 [required: any]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ numpy 2.1.3 [required: any]
+  │  │  │  └─ dependencies of numpy displayed above
+  │  │  ├─ ply 3.11 [required: any]
+  │  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ pydantic 2.11.7 [required: >=2.11.4,<3]
+  │  │  ├─ annotated-types 0.7.0 [required: >=0.6.0]
+  │  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  │  └─ typing-extensions 4.15.0 [required: >=4.0.0]
+  │  │  │     └─ dependencies of typing-extensions displayed above
+  │  │  ├─ pydantic-core 2.33.2 [required: 2.33.2]
+  │  │  │  ├─ python 3.11.13 [required: any]
+  │  │  │  ├─ typing-extensions 4.15.0 [required: >=4.6.0,!=4.7.0]
+  │  │  │  │  └─ dependencies of typing-extensions displayed above
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  ├─ typing-extensions 4.15.0 [required: >=4.6.1]
+  │  │  │  └─ dependencies of typing-extensions displayed above
+  │  │  ├─ typing-inspection 0.4.1 [required: >=0.4.0]
+  │  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  │  └─ typing_extensions 4.15.0 [required: >=4.12.0]
+  │  │  │     └─ dependencies of typing_extensions displayed above
+  │  │  └─ typing_extensions 4.15.0 [required: >=4.12.2]
+  │  │     └─ dependencies of typing_extensions displayed above
+  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  ├─ python-dateutil 2.9.0.post0 [required: >=2.8.1]
+  │  │  └─ dependencies of python-dateutil displayed above
+  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ pyyaml 6.0.2 [required: >=5.4.1]
+  │  │  └─ dependencies of pyyaml displayed above
+  │  ├─ quasielasticbayes 0.3.0 [required: 0.3.0.*]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ libgfortran 15.1.0 [required: any]
+  │  │  │  └─ dependencies of libgfortran displayed above
+  │  │  ├─ libgfortran5 15.1.0 [required: >=13.3.0]
+  │  │  │  └─ dependencies of libgfortran5 displayed above
+  │  │  ├─ numpy 2.1.3 [required: >=1.19,<3]
+  │  │  │  └─ dependencies of numpy displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ quickbayes 1.0.2 [required: 1.0.2.*]
+  │  │  ├─ numpy 2.1.3 [required: any]
+  │  │  │  └─ dependencies of numpy displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  └─ scipy 1.16.1 [required: any]
+  │  │     └─ dependencies of scipy displayed above
+  │  ├─ scipy 1.16.1 [required: >=1.10.0]
+  │  │  └─ dependencies of scipy displayed above
+  │  ├─ tbb 2022.2.0 [required: >=2021.13.0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ libhwloc 2.12.1 [required: >=2.12.1,<2.12.2.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  └─ libxml2 2.13.8 [required: >=2.13.8,<2.14.0a0]
+  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     ├─ icu 75.1 [required: >=75.1,<76.0a0]
+  │  │  │     │  └─ dependencies of icu displayed above
+  │  │  │     ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libiconv 1.18 [required: >=1.18,<2.0a0]
+  │  │  │     │  └─ dependencies of libiconv displayed above
+  │  │  │     ├─ liblzma 5.8.1 [required: >=5.8.1,<6.0a0]
+  │  │  │     │  └─ dependencies of liblzma displayed above
+  │  │  │     └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │        └─ dependencies of libzlib displayed above
+  │  │  └─ libstdcxx 15.1.0 [required: >=14]
+  │  │     └─ dependencies of libstdcxx displayed above
+  │  ├─ toml 0.10.2 [required: >=0.10.2]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.12,<2.0a0]
+  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  ├─ xorg-libxxf86vm 1.1.6 [required: >=1.1.6,<2.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  └─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │     └─ dependencies of xorg-libxext displayed above
+  │  └─ zlib 1.3.1 [required: any]
+  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     ├─ libgcc 15.1.0 [required: >=13]
+  │     │  └─ dependencies of libgcc displayed above
+  │     └─ libzlib 1.3.1 [required: 1.3.1, hb9d3cd8_2]
+  │        └─ dependencies of libzlib displayed above
+  ├─ mantidqt 6.13.1.2 [required: any]
+  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  ├─ _openmp_mutex 4.5 [required: >=4.5]
+  │  │  └─ dependencies of _openmp_mutex displayed above
+  │  ├─ libboost 1.88.0 [required: >=1.88.0,<1.89.0a0]
+  │  │  └─ dependencies of libboost displayed above
+  │  ├─ libboost-python 1.88.0 [required: >=1.88.0,<1.89.0a0]
+  │  │  └─ dependencies of libboost-python displayed above
+  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  └─ dependencies of libgcc displayed above
+  │  ├─ libgl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  └─ dependencies of libgl displayed above
+  │  ├─ libopenblas 0.3.30 [required: >=0.3.27,<1.0a0]
+  │  │  └─ dependencies of libopenblas displayed above
+  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  └─ dependencies of libstdcxx displayed above
+  │  ├─ mantid 6.13.1.2 [required: >=6.13.1.2,<6.13.2.0a0]
+  │  │  └─ dependencies of mantid displayed above
+  │  ├─ matplotlib 3.9.4 [required: 3.9.*]
+  │  │  ├─ matplotlib-base 3.9.4 [required: >=3.9.4,<3.9.5.0a0]
+  │  │  │  └─ dependencies of matplotlib-base displayed above
+  │  │  ├─ pyside6 6.7.3 [required: >=6.7.2]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ libclang13 20.1.8 [required: >=19.1.0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libllvm20 20.1.8 [required: >=20.1.8,<20.2.0a0]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  │  ├─ libxml2 2.13.8 [required: >=2.13.8,<2.14.0a0]
+  │  │  │  │  │  │  └─ dependencies of libxml2 displayed above
+  │  │  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  │  │  └─ zstd 1.5.7 [required: >=1.5.7,<1.6.0a0]
+  │  │  │  │  │     └─ dependencies of zstd displayed above
+  │  │  │  │  └─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │     └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ libegl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  └─ libglvnd 1.7.0 [required: 1.7.0, ha4b6fd6_2]
+  │  │  │  │     └─ dependencies of libglvnd displayed above
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libgl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  │  └─ dependencies of libgl displayed above
+  │  │  │  ├─ libopengl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  │  └─ dependencies of libopengl displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ libxml2 2.13.8 [required: >=2.12.7,<2.14.0a0]
+  │  │  │  │  └─ dependencies of libxml2 displayed above
+  │  │  │  ├─ libxslt 1.1.43 [required: >=1.1.39,<2.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  └─ libxml2 2.13.8 [required: >=2.13.8,<2.14.0a0]
+  │  │  │  │     └─ dependencies of libxml2 displayed above
+  │  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  │  └─ qt6-main 6.7.3 [required: >=6.7.3,<6.9.0a0]
+  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     ├─ alsa-lib 1.2.14 [required: >=1.2.12,<1.3.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │     └─ dependencies of libgcc displayed above
+  │  │  │     ├─ dbus 1.13.6 [required: >=1.13.6,<2.0a0]
+  │  │  │     │  ├─ expat 2.7.1 [required: >=2.4.2,<3.0a0]
+  │  │  │     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  │  ├─ libexpat 2.7.1 [required: 2.7.1, hecca717_0]
+  │  │  │     │  │  │  └─ dependencies of libexpat displayed above
+  │  │  │     │  │  └─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │  │     └─ dependencies of libgcc displayed above
+  │  │  │     │  ├─ libgcc-ng 15.1.0 [required: >=9.4.0]
+  │  │  │     │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │     │  └─ libglib 2.84.1 [required: >=2.70.2,<3.0a0]
+  │  │  │     │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │     ├─ libffi 3.4.6 [required: >=3.4.6,<3.5.0a0]
+  │  │  │     │     │  └─ dependencies of libffi displayed above
+  │  │  │     │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │     │  └─ dependencies of libgcc displayed above
+  │  │  │     │     ├─ libiconv 1.18 [required: >=1.18,<2.0a0]
+  │  │  │     │     │  └─ dependencies of libiconv displayed above
+  │  │  │     │     ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │     │  └─ dependencies of libzlib displayed above
+  │  │  │     │     └─ pcre2 10.44 [required: >=10.44,<10.45.0a0]
+  │  │  │     │        ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │        ├─ bzip2 1.0.8 [required: >=1.0.8,<2.0a0]
+  │  │  │     │        │  └─ dependencies of bzip2 displayed above
+  │  │  │     │        ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │        │  └─ dependencies of libgcc displayed above
+  │  │  │     │        └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │           └─ dependencies of libzlib displayed above
+  │  │  │     ├─ double-conversion 3.3.1 [required: >=3.3.0,<3.4.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  └─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │     └─ dependencies of libstdcxx displayed above
+  │  │  │     ├─ fontconfig 2.15.0 [required: >=2.14.2,<3.0a0]
+  │  │  │     │  └─ dependencies of fontconfig displayed above
+  │  │  │     ├─ fonts-conda-ecosystem 1 [required: any]
+  │  │  │     │  └─ dependencies of fonts-conda-ecosystem displayed above
+  │  │  │     ├─ freetype 2.13.3 [required: >=2.12.1,<3.0a0]
+  │  │  │     │  └─ dependencies of freetype displayed above
+  │  │  │     ├─ harfbuzz 11.2.1 [required: >=9.0.0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ cairo 1.18.4 [required: >=1.18.4,<2.0a0]
+  │  │  │     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  │  ├─ fontconfig 2.15.0 [required: >=2.15.0,<3.0a0]
+  │  │  │     │  │  │  └─ dependencies of fontconfig displayed above
+  │  │  │     │  │  ├─ fonts-conda-ecosystem 1 [required: any]
+  │  │  │     │  │  │  └─ dependencies of fonts-conda-ecosystem displayed above
+  │  │  │     │  │  ├─ freetype 2.13.3 [required: >=2.12.1,<3.0a0]
+  │  │  │     │  │  │  └─ dependencies of freetype displayed above
+  │  │  │     │  │  ├─ icu 75.1 [required: >=75.1,<76.0a0]
+  │  │  │     │  │  │  └─ dependencies of icu displayed above
+  │  │  │     │  │  ├─ libexpat 2.7.1 [required: >=2.6.4,<3.0a0]
+  │  │  │     │  │  │  └─ dependencies of libexpat displayed above
+  │  │  │     │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  │  ├─ libglib 2.84.1 [required: >=2.82.2,<3.0a0]
+  │  │  │     │  │  │  └─ dependencies of libglib displayed above
+  │  │  │     │  │  ├─ libpng 1.6.50 [required: >=1.6.47,<1.7.0a0]
+  │  │  │     │  │  │  └─ dependencies of libpng displayed above
+  │  │  │     │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │     │  │  ├─ libxcb 1.17.0 [required: >=1.17.0,<2.0a0]
+  │  │  │     │  │  │  └─ dependencies of libxcb displayed above
+  │  │  │     │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │     │  │  ├─ pixman 0.46.4 [required: >=0.44.2,<1.0a0]
+  │  │  │     │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │     │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │     │  │  │  └─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  │  ├─ xorg-libice 1.1.2 [required: >=1.1.2,<2.0a0]
+  │  │  │     │  │  │  └─ dependencies of xorg-libice displayed above
+  │  │  │     │  │  ├─ xorg-libsm 1.2.6 [required: >=1.2.5,<2.0a0]
+  │  │  │     │  │  │  └─ dependencies of xorg-libsm displayed above
+  │  │  │     │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.11,<2.0a0]
+  │  │  │     │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │     │  │  ├─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │  │     │  │  │  └─ dependencies of xorg-libxext displayed above
+  │  │  │     │  │  └─ xorg-libxrender 0.9.12 [required: >=0.9.12,<0.10.0a0]
+  │  │  │     │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │     │  │     └─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │     │  │        └─ dependencies of xorg-libx11 displayed above
+  │  │  │     │  ├─ freetype 2.13.3 [required: any]
+  │  │  │     │  │  └─ dependencies of freetype displayed above
+  │  │  │     │  ├─ graphite2 1.3.14 [required: any]
+  │  │  │     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  │  └─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │     │  │     └─ dependencies of libstdcxx displayed above
+  │  │  │     │  ├─ icu 75.1 [required: >=75.1,<76.0a0]
+  │  │  │     │  │  └─ dependencies of icu displayed above
+  │  │  │     │  ├─ libexpat 2.7.1 [required: >=2.7.0,<3.0a0]
+  │  │  │     │  │  └─ dependencies of libexpat displayed above
+  │  │  │     │  ├─ libfreetype 2.13.3 [required: >=2.13.3]
+  │  │  │     │  │  └─ dependencies of libfreetype displayed above
+  │  │  │     │  ├─ libfreetype6 2.13.3 [required: >=2.13.3]
+  │  │  │     │  │  └─ dependencies of libfreetype6 displayed above
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  ├─ libglib 2.84.1 [required: >=2.84.1,<3.0a0]
+  │  │  │     │  │  └─ dependencies of libglib displayed above
+  │  │  │     │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │     │  └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │     └─ dependencies of libzlib displayed above
+  │  │  │     ├─ icu 75.1 [required: >=75.1,<76.0a0]
+  │  │  │     │  └─ dependencies of icu displayed above
+  │  │  │     ├─ krb5 1.21.3 [required: >=1.21.3,<1.22.0a0]
+  │  │  │     │  └─ dependencies of krb5 displayed above
+  │  │  │     ├─ libclang-cpp19.1 19.1.7 [required: >=19.1.0,<19.2.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  ├─ libllvm19 19.1.7 [required: >=19.1.7,<19.2.0a0]
+  │  │  │     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │     │  │  ├─ libxml2 2.13.8 [required: >=2.13.5,<2.14.0a0]
+  │  │  │     │  │  │  └─ dependencies of libxml2 displayed above
+  │  │  │     │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │     │  │  └─ zstd 1.5.7 [required: >=1.5.6,<1.6.0a0]
+  │  │  │     │  │     └─ dependencies of zstd displayed above
+  │  │  │     │  └─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │     └─ dependencies of libstdcxx displayed above
+  │  │  │     ├─ libclang13 20.1.8 [required: >=19.1.0]
+  │  │  │     │  └─ dependencies of libclang13 displayed above
+  │  │  │     ├─ libcups 2.3.3 [required: >=2.3.3,<2.4.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ krb5 1.21.3 [required: >=1.21.3,<1.22.0a0]
+  │  │  │     │  │  └─ dependencies of krb5 displayed above
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │     │  └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │     └─ dependencies of libzlib displayed above
+  │  │  │     ├─ libdrm 2.4.125 [required: >=2.4.123,<2.5.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  └─ libpciaccess 0.18 [required: >=0.18,<0.19.0a0]
+  │  │  │     │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │     └─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │        └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libegl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │     │  └─ dependencies of libegl displayed above
+  │  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libgl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │     │  └─ dependencies of libgl displayed above
+  │  │  │     ├─ libglib 2.84.1 [required: >=2.82.1,<3.0a0]
+  │  │  │     │  └─ dependencies of libglib displayed above
+  │  │  │     ├─ libjpeg-turbo 3.1.0 [required: >=3.0.0,<4.0a0]
+  │  │  │     │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  │     ├─ libllvm19 19.1.7 [required: >=19.1.0,<19.2.0a0]
+  │  │  │     │  └─ dependencies of libllvm19 displayed above
+  │  │  │     ├─ libpng 1.6.50 [required: >=1.6.44,<1.7.0a0]
+  │  │  │     │  └─ dependencies of libpng displayed above
+  │  │  │     ├─ libpq 16.10 [required: >=16.4,<17.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ krb5 1.21.3 [required: >=1.21.3,<1.22.0a0]
+  │  │  │     │  │  └─ dependencies of krb5 displayed above
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  └─ openssl 3.5.2 [required: >=3.5.2,<4.0a0]
+  │  │  │     │     └─ dependencies of openssl displayed above
+  │  │  │     ├─ libsqlite 3.50.4 [required: >=3.46.1,<4.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │     └─ dependencies of libzlib displayed above
+  │  │  │     ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │  └─ dependencies of libstdcxx displayed above
+  │  │  │     ├─ libtiff 4.7.0 [required: >=4.7.0,<4.8.0a0]
+  │  │  │     │  └─ dependencies of libtiff displayed above
+  │  │  │     ├─ libwebp-base 1.6.0 [required: >=1.4.0,<2.0a0]
+  │  │  │     │  └─ dependencies of libwebp-base displayed above
+  │  │  │     ├─ libxcb 1.17.0 [required: >=1.17.0,<2.0a0]
+  │  │  │     │  └─ dependencies of libxcb displayed above
+  │  │  │     ├─ libxkbcommon 1.11.0 [required: >=1.7.0,<2.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │     │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │     │  ├─ libxcb 1.17.0 [required: >=1.17.0,<2.0a0]
+  │  │  │     │  │  └─ dependencies of libxcb displayed above
+  │  │  │     │  ├─ libxml2 2.13.8 [required: >=2.13.8,<2.14.0a0]
+  │  │  │     │  │  └─ dependencies of libxml2 displayed above
+  │  │  │     │  ├─ xkeyboard-config 2.45 [required: any]
+  │  │  │     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  │  └─ xorg-libx11 1.8.12 [required: >=1.8.12,<2.0a0]
+  │  │  │     │  │     └─ dependencies of xorg-libx11 displayed above
+  │  │  │     │  └─ xorg-libxau 1.0.12 [required: >=1.0.12,<2.0a0]
+  │  │  │     │     └─ dependencies of xorg-libxau displayed above
+  │  │  │     ├─ libxml2 2.13.8 [required: >=2.12.7,<2.14.0a0]
+  │  │  │     │  └─ dependencies of libxml2 displayed above
+  │  │  │     ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │  └─ dependencies of libzlib displayed above
+  │  │  │     ├─ mysql-libs 9.0.1 [required: >=9.0.1,<9.1.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │     │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │     │  │  └─ dependencies of libzlib displayed above
+  │  │  │     │  ├─ mysql-common 9.0.1 [required: 9.0.1, h266115a_6]
+  │  │  │     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │     │  │  └─ openssl 3.5.2 [required: >=3.4.1,<4.0a0]
+  │  │  │     │  │     └─ dependencies of openssl displayed above
+  │  │  │     │  ├─ openssl 3.5.2 [required: >=3.4.1,<4.0a0]
+  │  │  │     │  │  └─ dependencies of openssl displayed above
+  │  │  │     │  └─ zstd 1.5.7 [required: >=1.5.7,<1.6.0a0]
+  │  │  │     │     └─ dependencies of zstd displayed above
+  │  │  │     ├─ openssl 3.5.2 [required: >=3.3.2,<4.0a0]
+  │  │  │     │  └─ dependencies of openssl displayed above
+  │  │  │     ├─ pcre2 10.44 [required: >=10.44,<10.45.0a0]
+  │  │  │     │  └─ dependencies of pcre2 displayed above
+  │  │  │     ├─ wayland 1.24.0 [required: >=1.23.1,<2.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libexpat 2.7.1 [required: >=2.7.0,<3.0a0]
+  │  │  │     │  │  └─ dependencies of libexpat displayed above
+  │  │  │     │  ├─ libffi 3.4.6 [required: >=3.4.6,<3.5.0a0]
+  │  │  │     │  │  └─ dependencies of libffi displayed above
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  └─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │     │     └─ dependencies of libstdcxx displayed above
+  │  │  │     ├─ xcb-util 0.4.1 [required: >=0.4.1,<0.5.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  └─ libxcb 1.17.0 [required: >=1.17.0,<2.0a0]
+  │  │  │     │     └─ dependencies of libxcb displayed above
+  │  │  │     ├─ xcb-util-cursor 0.1.5 [required: >=0.1.5,<0.2.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  ├─ libxcb 1.17.0 [required: >=1.16,<2.0.0a0]
+  │  │  │     │  │  └─ dependencies of libxcb displayed above
+  │  │  │     │  ├─ xcb-util-image 0.4.0 [required: >=0.4.0,<0.5.0a0]
+  │  │  │     │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │     │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │     │  │  ├─ libxcb 1.17.0 [required: >=1.16,<2.0.0a0]
+  │  │  │     │  │  │  └─ dependencies of libxcb displayed above
+  │  │  │     │  │  └─ xcb-util 0.4.1 [required: >=0.4.1,<0.5.0a0]
+  │  │  │     │  │     └─ dependencies of xcb-util displayed above
+  │  │  │     │  └─ xcb-util-renderutil 0.3.10 [required: >=0.3.10,<0.4.0a0]
+  │  │  │     │     ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │     │     │  └─ dependencies of libgcc-ng displayed above
+  │  │  │     │     └─ libxcb 1.17.0 [required: >=1.16,<2.0.0a0]
+  │  │  │     │        └─ dependencies of libxcb displayed above
+  │  │  │     ├─ xcb-util-image 0.4.0 [required: >=0.4.0,<0.5.0a0]
+  │  │  │     │  └─ dependencies of xcb-util-image displayed above
+  │  │  │     ├─ xcb-util-keysyms 0.4.1 [required: >=0.4.1,<0.5.0a0]
+  │  │  │     │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │     │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │     │  └─ libxcb 1.17.0 [required: >=1.16,<2.0.0a0]
+  │  │  │     │     └─ dependencies of libxcb displayed above
+  │  │  │     ├─ xcb-util-renderutil 0.3.10 [required: >=0.3.10,<0.4.0a0]
+  │  │  │     │  └─ dependencies of xcb-util-renderutil displayed above
+  │  │  │     ├─ xcb-util-wm 0.4.2 [required: >=0.4.2,<0.5.0a0]
+  │  │  │     │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │     │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │     │  └─ libxcb 1.17.0 [required: >=1.16,<2.0.0a0]
+  │  │  │     │     └─ dependencies of libxcb displayed above
+  │  │  │     ├─ xorg-libice 1.1.2 [required: >=1.1.1,<2.0a0]
+  │  │  │     │  └─ dependencies of xorg-libice displayed above
+  │  │  │     ├─ xorg-libsm 1.2.6 [required: >=1.2.4,<2.0a0]
+  │  │  │     │  └─ dependencies of xorg-libsm displayed above
+  │  │  │     ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │     │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │     ├─ xorg-libxext 1.3.6 [required: >=1.3.4,<2.0a0]
+  │  │  │     │  └─ dependencies of xorg-libxext displayed above
+  │  │  │     ├─ xorg-libxtst 1.2.5 [required: >=1.2.5,<2.0a0]
+  │  │  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  │  └─ dependencies of libgcc displayed above
+  │  │  │     │  ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │     │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │     │  ├─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │  │     │  │  └─ dependencies of xorg-libxext displayed above
+  │  │  │     │  └─ xorg-libxi 1.8.2 [required: >=1.7.10,<2.0a0]
+  │  │  │     │     └─ dependencies of xorg-libxi displayed above
+  │  │  │     ├─ xorg-libxxf86vm 1.1.6 [required: >=1.1.5,<2.0a0]
+  │  │  │     │  └─ dependencies of xorg-libxxf86vm displayed above
+  │  │  │     └─ zstd 1.5.7 [required: >=1.5.6,<1.6.0a0]
+  │  │  │        └─ dependencies of zstd displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  └─ tornado 6.5.2 [required: >=5]
+  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     ├─ libgcc 15.1.0 [required: >=14]
+  │  │     │  └─ dependencies of libgcc displayed above
+  │  │     ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │     └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ pyqt 5.15.9 [required: >=5.15.9,<5.16.0a0]
+  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  ├─ pyqt5-sip 12.12.2 [required: 12.12.2, py311hb755f60_5]
+  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  │  ├─ packaging 25.0 [required: any]
+  │  │  │  │  └─ dependencies of packaging displayed above
+  │  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  │  ├─ sip 6.7.12 [required: any]
+  │  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  │  │  ├─ packaging 25.0 [required: any]
+  │  │  │  │  │  └─ dependencies of packaging displayed above
+  │  │  │  │  ├─ ply 3.11 [required: any]
+  │  │  │  │  │  └─ dependencies of ply displayed above
+  │  │  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  │  │  └─ tomli 2.2.1 [required: any]
+  │  │  │  │     └─ python 3.11.13 [required: any]
+  │  │  │  └─ toml 0.10.2 [required: any]
+  │  │  │     └─ dependencies of toml displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  ├─ qt-main 5.15.8 [required: >=5.15.8,<5.16.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ alsa-lib 1.2.14 [required: >=1.2.12,<1.3.0a0]
+  │  │  │  │  └─ dependencies of alsa-lib displayed above
+  │  │  │  ├─ dbus 1.13.6 [required: >=1.13.6,<2.0a0]
+  │  │  │  │  └─ dependencies of dbus displayed above
+  │  │  │  ├─ fontconfig 2.15.0 [required: >=2.14.2,<3.0a0]
+  │  │  │  │  └─ dependencies of fontconfig displayed above
+  │  │  │  ├─ fonts-conda-ecosystem 1 [required: any]
+  │  │  │  │  └─ dependencies of fonts-conda-ecosystem displayed above
+  │  │  │  ├─ freetype 2.13.3 [required: >=2.12.1,<3.0a0]
+  │  │  │  │  └─ dependencies of freetype displayed above
+  │  │  │  ├─ gst-plugins-base 1.24.11 [required: >=1.24.7,<1.25.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ alsa-lib 1.2.14 [required: >=1.2.14,<1.3.0a0]
+  │  │  │  │  │  └─ dependencies of alsa-lib displayed above
+  │  │  │  │  ├─ gstreamer 1.24.11 [required: 1.24.11, hc37bda9_0]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ glib 2.84.1 [required: >=2.84.1,<3.0a0]
+  │  │  │  │  │  │  ├─ glib-tools 2.84.1 [required: 2.84.1, h4833e2c_0]
+  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  │  └─ libglib 2.84.1 [required: 2.84.1, h2ff4ddf_0]
+  │  │  │  │  │  │  │     └─ dependencies of libglib displayed above
+  │  │  │  │  │  │  ├─ libffi 3.4.6 [required: >=3.4.6,<3.5.0a0]
+  │  │  │  │  │  │  │  └─ dependencies of libffi displayed above
+  │  │  │  │  │  │  ├─ libglib 2.84.1 [required: 2.84.1, h2ff4ddf_0]
+  │  │  │  │  │  │  │  └─ dependencies of libglib displayed above
+  │  │  │  │  │  │  ├─ packaging 25.0 [required: any]
+  │  │  │  │  │  │  │  └─ dependencies of packaging displayed above
+  │  │  │  │  │  │  └─ python 3.11.13 [required: *]
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libglib 2.84.1 [required: >=2.84.1,<3.0a0]
+  │  │  │  │  │  │  └─ dependencies of libglib displayed above
+  │  │  │  │  │  ├─ libiconv 1.18 [required: >=1.18,<2.0a0]
+  │  │  │  │  │  │  └─ dependencies of libiconv displayed above
+  │  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  │  └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │     └─ dependencies of libzlib displayed above
+  │  │  │  │  ├─ libdrm 2.4.125 [required: >=2.4.124,<2.5.0a0]
+  │  │  │  │  │  └─ dependencies of libdrm displayed above
+  │  │  │  │  ├─ libegl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  │  │  └─ dependencies of libegl displayed above
+  │  │  │  │  ├─ libexpat 2.7.1 [required: >=2.7.0,<3.0a0]
+  │  │  │  │  │  └─ dependencies of libexpat displayed above
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libgl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  │  │  └─ dependencies of libgl displayed above
+  │  │  │  │  ├─ libglib 2.84.1 [required: >=2.84.1,<3.0a0]
+  │  │  │  │  │  └─ dependencies of libglib displayed above
+  │  │  │  │  ├─ libogg 1.3.5 [required: >=1.3.5,<1.4.0a0]
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  └─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libopus 1.5.2 [required: >=1.5.2,<2.0a0]
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  └─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libpng 1.6.50 [required: >=1.6.47,<1.7.0a0]
+  │  │  │  │  │  └─ dependencies of libpng displayed above
+  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  ├─ libvorbis 1.3.7 [required: >=1.3.7,<1.4.0a0]
+  │  │  │  │  │  ├─ libogg 1.3.5 [required: >=1.3.5,<1.4.0a0]
+  │  │  │  │  │  │  └─ dependencies of libogg displayed above
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  └─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  │     └─ dependencies of libstdcxx displayed above
+  │  │  │  │  ├─ libxcb 1.17.0 [required: >=1.17.0,<2.0a0]
+  │  │  │  │  │  └─ dependencies of libxcb displayed above
+  │  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.12,<2.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  ├─ xorg-libxau 1.0.12 [required: >=1.0.12,<2.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libxau displayed above
+  │  │  │  │  ├─ xorg-libxdamage 1.1.6 [required: >=1.1.6,<2.0a0]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  │  ├─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │  │  │  │  │  └─ dependencies of xorg-libxext displayed above
+  │  │  │  │  │  └─ xorg-libxfixes 6.0.1 [required: >=6.0.1,<7.0a0]
+  │  │  │  │  │     └─ dependencies of xorg-libxfixes displayed above
+  │  │  │  │  ├─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libxext displayed above
+  │  │  │  │  ├─ xorg-libxfixes 6.0.1 [required: >=6.0.1,<7.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libxfixes displayed above
+  │  │  │  │  ├─ xorg-libxrender 0.9.12 [required: >=0.9.12,<0.10.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libxrender displayed above
+  │  │  │  │  ├─ xorg-libxshmfence 1.3.3 [required: >=1.3.3,<2.0a0]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  └─ xorg-libxxf86vm 1.1.6 [required: >=1.1.6,<2.0a0]
+  │  │  │  │     └─ dependencies of xorg-libxxf86vm displayed above
+  │  │  │  ├─ gstreamer 1.24.11 [required: >=1.24.7,<1.25.0a0]
+  │  │  │  │  └─ dependencies of gstreamer displayed above
+  │  │  │  ├─ harfbuzz 11.2.1 [required: >=9.0.0]
+  │  │  │  │  └─ dependencies of harfbuzz displayed above
+  │  │  │  ├─ icu 75.1 [required: >=75.1,<76.0a0]
+  │  │  │  │  └─ dependencies of icu displayed above
+  │  │  │  ├─ krb5 1.21.3 [required: >=1.21.3,<1.22.0a0]
+  │  │  │  │  └─ dependencies of krb5 displayed above
+  │  │  │  ├─ libclang-cpp15 15.0.7 [required: >=15.0.7,<15.1.0a0]
+  │  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  ├─ libllvm15 15.0.7 [required: >=15.0.7,<15.1.0a0]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  │  ├─ libxml2 2.13.8 [required: >=2.13.5,<2.14.0a0]
+  │  │  │  │  │  │  └─ dependencies of libxml2 displayed above
+  │  │  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  │  │  └─ zstd 1.5.7 [required: >=1.5.6,<1.6.0a0]
+  │  │  │  │  │     └─ dependencies of zstd displayed above
+  │  │  │  │  └─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  │     └─ dependencies of libstdcxx-ng displayed above
+  │  │  │  ├─ libclang13 20.1.8 [required: >=15.0.7]
+  │  │  │  │  └─ dependencies of libclang13 displayed above
+  │  │  │  ├─ libcups 2.3.3 [required: >=2.3.3,<2.4.0a0]
+  │  │  │  │  └─ dependencies of libcups displayed above
+  │  │  │  ├─ libdrm 2.4.125 [required: >=2.4.123,<2.5.0a0]
+  │  │  │  │  └─ dependencies of libdrm displayed above
+  │  │  │  ├─ libegl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  │  └─ dependencies of libegl displayed above
+  │  │  │  ├─ libevent 2.1.12 [required: >=2.1.12,<2.1.13.0a0]
+  │  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  └─ openssl 3.5.2 [required: >=3.1.1,<4.0a0]
+  │  │  │  │     └─ dependencies of openssl displayed above
+  │  │  │  ├─ libexpat 2.7.1 [required: >=2.6.3,<3.0a0]
+  │  │  │  │  └─ dependencies of libexpat displayed above
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libgl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  │  └─ dependencies of libgl displayed above
+  │  │  │  ├─ libglib 2.84.1 [required: >=2.82.2,<3.0a0]
+  │  │  │  │  └─ dependencies of libglib displayed above
+  │  │  │  ├─ libjpeg-turbo 3.1.0 [required: >=3.0.0,<4.0a0]
+  │  │  │  │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  │  ├─ libllvm15 15.0.7 [required: >=15.0.7,<15.1.0a0]
+  │  │  │  │  └─ dependencies of libllvm15 displayed above
+  │  │  │  ├─ libpng 1.6.50 [required: >=1.6.44,<1.7.0a0]
+  │  │  │  │  └─ dependencies of libpng displayed above
+  │  │  │  ├─ libpq 16.10 [required: >=16.4,<17.0a0]
+  │  │  │  │  └─ dependencies of libpq displayed above
+  │  │  │  ├─ libsqlite 3.50.4 [required: >=3.47.0,<4.0a0]
+  │  │  │  │  └─ dependencies of libsqlite displayed above
+  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ libxcb 1.17.0 [required: >=1.17.0,<2.0a0]
+  │  │  │  │  └─ dependencies of libxcb displayed above
+  │  │  │  ├─ libxkbcommon 1.11.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  │  └─ dependencies of libxkbcommon displayed above
+  │  │  │  ├─ libxml2 2.13.8 [required: >=2.12.7,<2.14.0a0]
+  │  │  │  │  └─ dependencies of libxml2 displayed above
+  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  ├─ mysql-libs 9.0.1 [required: >=9.0.1,<9.1.0a0]
+  │  │  │  │  └─ dependencies of mysql-libs displayed above
+  │  │  │  ├─ nspr 4.37 [required: >=4.36,<5.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  └─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │     └─ dependencies of libstdcxx displayed above
+  │  │  │  ├─ nss 3.115 [required: >=3.106,<4.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libsqlite 3.50.4 [required: >=3.50.4,<4.0a0]
+  │  │  │  │  │  └─ dependencies of libsqlite displayed above
+  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  │  └─ nspr 4.37 [required: >=4.37,<5.0a0]
+  │  │  │  │     └─ dependencies of nspr displayed above
+  │  │  │  ├─ openssl 3.5.2 [required: >=3.3.2,<4.0a0]
+  │  │  │  │  └─ dependencies of openssl displayed above
+  │  │  │  ├─ pulseaudio-client 17.0 [required: >=17.0,<17.1.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ dbus 1.13.6 [required: >=1.13.6,<2.0a0]
+  │  │  │  │  │  └─ dependencies of dbus displayed above
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libglib 2.84.1 [required: >=2.82.2,<3.0a0]
+  │  │  │  │  │  └─ dependencies of libglib displayed above
+  │  │  │  │  ├─ libiconv 1.18 [required: >=1.18,<2.0a0]
+  │  │  │  │  │  └─ dependencies of libiconv displayed above
+  │  │  │  │  ├─ libsndfile 1.2.2 [required: >=1.2.2,<1.3.0a0]
+  │  │  │  │  │  ├─ lame 3.100 [required: >=3.100,<3.101.0a0]
+  │  │  │  │  │  │  └─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │     └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  │  ├─ libflac 1.4.3 [required: >=1.4.3,<1.5.0a0]
+  │  │  │  │  │  │  ├─ gettext 0.25.1 [required: >=0.21.1,<1.0a0]
+  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  ├─ gettext-tools 0.25.1 [required: 0.25.1, h3f43e3d_1]
+  │  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  │  │  └─ libiconv 1.18 [required: >=1.18,<2.0a0]
+  │  │  │  │  │  │  │  │     └─ dependencies of libiconv displayed above
+  │  │  │  │  │  │  │  ├─ libasprintf 0.25.1 [required: 0.25.1, h3f43e3d_1]
+  │  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  │  │  └─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  │  │  │  │     └─ dependencies of libstdcxx displayed above
+  │  │  │  │  │  │  │  ├─ libasprintf-devel 0.25.1 [required: 0.25.1, h3f43e3d_1]
+  │  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  │  ├─ libasprintf 0.25.1 [required: 0.25.1, h3f43e3d_1]
+  │  │  │  │  │  │  │  │  │  └─ dependencies of libasprintf displayed above
+  │  │  │  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  │  ├─ libgettextpo 0.25.1 [required: 0.25.1, h3f43e3d_1]
+  │  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  │  │  └─ libiconv 1.18 [required: >=1.18,<2.0a0]
+  │  │  │  │  │  │  │  │     └─ dependencies of libiconv displayed above
+  │  │  │  │  │  │  │  ├─ libgettextpo-devel 0.25.1 [required: 0.25.1, h3f43e3d_1]
+  │  │  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  │  │  ├─ libgettextpo 0.25.1 [required: 0.25.1, h3f43e3d_1]
+  │  │  │  │  │  │  │  │  │  └─ dependencies of libgettextpo displayed above
+  │  │  │  │  │  │  │  │  └─ libiconv 1.18 [required: >=1.18,<2.0a0]
+  │  │  │  │  │  │  │  │     └─ dependencies of libiconv displayed above
+  │  │  │  │  │  │  │  ├─ libiconv 1.18 [required: >=1.18,<2.0a0]
+  │  │  │  │  │  │  │  │  └─ dependencies of libiconv displayed above
+  │  │  │  │  │  │  │  └─ libstdcxx 15.1.0 [required: >=14]
+  │  │  │  │  │  │  │     └─ dependencies of libstdcxx displayed above
+  │  │  │  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  │  │  ├─ libogg 1.3.5 [required: >=1.3.4,<1.4.0a0]
+  │  │  │  │  │  │  │  └─ dependencies of libogg displayed above
+  │  │  │  │  │  │  └─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │     └─ dependencies of libstdcxx-ng displayed above
+  │  │  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  │  ├─ libogg 1.3.5 [required: >=1.3.4,<1.4.0a0]
+  │  │  │  │  │  │  └─ dependencies of libogg displayed above
+  │  │  │  │  │  ├─ libopus 1.5.2 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  │  │  └─ dependencies of libopus displayed above
+  │  │  │  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  │  │  │  ├─ libvorbis 1.3.7 [required: >=1.3.7,<1.4.0a0]
+  │  │  │  │  │  │  └─ dependencies of libvorbis displayed above
+  │  │  │  │  │  └─ mpg123 1.32.9 [required: >=1.32.1,<1.33.0a0]
+  │  │  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │     └─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  │        └─ dependencies of libstdcxx displayed above
+  │  │  │  │  ├─ libsystemd0 257.7 [required: >=257.4]
+  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ libcap 2.75 [required: >=2.75,<2.76.0a0]
+  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  ├─ attr 2.5.1 [required: >=2.5.1,<2.6.0a0]
+  │  │  │  │  │  │  │  └─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │  │  │     └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  ├─ libgcrypt-lib 1.11.1 [required: >=1.11.1,<2.0a0]
+  │  │  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │  └─ libgpg-error 1.55 [required: >=1.55,<2.0a0]
+  │  │  │  │  │  │     ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  │  │     │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │  │  │  │     └─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  │  ├─ liblzma 5.8.1 [required: >=5.8.1,<6.0a0]
+  │  │  │  │  │  │  └─ dependencies of liblzma displayed above
+  │  │  │  │  │  ├─ lz4-c 1.10.0 [required: >=1.10.0,<1.11.0a0]
+  │  │  │  │  │  │  └─ dependencies of lz4-c displayed above
+  │  │  │  │  │  └─ zstd 1.5.7 [required: >=1.5.7,<1.6.0a0]
+  │  │  │  │  │     └─ dependencies of zstd displayed above
+  │  │  │  │  └─ libxcb 1.17.0 [required: >=1.17.0,<2.0a0]
+  │  │  │  │     └─ dependencies of libxcb displayed above
+  │  │  │  ├─ xcb-util 0.4.1 [required: >=0.4.1,<0.5.0a0]
+  │  │  │  │  └─ dependencies of xcb-util displayed above
+  │  │  │  ├─ xcb-util-image 0.4.0 [required: >=0.4.0,<0.5.0a0]
+  │  │  │  │  └─ dependencies of xcb-util-image displayed above
+  │  │  │  ├─ xcb-util-keysyms 0.4.1 [required: >=0.4.1,<0.5.0a0]
+  │  │  │  │  └─ dependencies of xcb-util-keysyms displayed above
+  │  │  │  ├─ xcb-util-renderutil 0.3.10 [required: >=0.3.10,<0.4.0a0]
+  │  │  │  │  └─ dependencies of xcb-util-renderutil displayed above
+  │  │  │  ├─ xcb-util-wm 0.4.2 [required: >=0.4.2,<0.5.0a0]
+  │  │  │  │  └─ dependencies of xcb-util-wm displayed above
+  │  │  │  ├─ xorg-libice 1.1.2 [required: >=1.1.1,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libice displayed above
+  │  │  │  ├─ xorg-libsm 1.2.6 [required: >=1.2.4,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libsm displayed above
+  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  ├─ xorg-libxdamage 1.1.6 [required: >=1.1.6,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxdamage displayed above
+  │  │  │  ├─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxext displayed above
+  │  │  │  ├─ xorg-libxxf86vm 1.1.6 [required: >=1.1.5,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxxf86vm displayed above
+  │  │  │  ├─ xorg-xf86vidmodeproto 2.3.1 [required: any]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  └─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │     └─ dependencies of libgcc displayed above
+  │  │  │  └─ zstd 1.5.7 [required: >=1.5.6,<1.6.0a0]
+  │  │  │     └─ dependencies of zstd displayed above
+  │  │  └─ sip 6.7.12 [required: >=6.7.11,<6.8.0a0]
+  │  │     └─ dependencies of sip displayed above
+  │  ├─ pyqtwebengine 5.15.9 [required: >=5.15.9,<5.16.0a0]
+  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  ├─ pyqt 5.15.9 [required: >=5.15.9,<5.16.0a0]
+  │  │  │  └─ dependencies of pyqt displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  ├─ qt-main 5.15.8 [required: >=5.15.8,<5.16.0a0]
+  │  │  │  └─ dependencies of qt-main displayed above
+  │  │  ├─ qt-webengine 5.15.8 [required: >=5.15.8,<5.16.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ alsa-lib 1.2.14 [required: >=1.2.12,<1.3.0a0]
+  │  │  │  │  └─ dependencies of alsa-lib displayed above
+  │  │  │  ├─ dbus 1.13.6 [required: >=1.13.6,<2.0a0]
+  │  │  │  │  └─ dependencies of dbus displayed above
+  │  │  │  ├─ fontconfig 2.15.0 [required: >=2.14.2,<3.0a0]
+  │  │  │  │  └─ dependencies of fontconfig displayed above
+  │  │  │  ├─ fonts-conda-ecosystem 1 [required: any]
+  │  │  │  │  └─ dependencies of fonts-conda-ecosystem displayed above
+  │  │  │  ├─ freetype 2.13.3 [required: >=2.12.1,<3.0a0]
+  │  │  │  │  └─ dependencies of freetype displayed above
+  │  │  │  ├─ harfbuzz 11.2.1 [required: >=9.0.0]
+  │  │  │  │  └─ dependencies of harfbuzz displayed above
+  │  │  │  ├─ libcups 2.3.3 [required: >=2.3.3,<2.4.0a0]
+  │  │  │  │  └─ dependencies of libcups displayed above
+  │  │  │  ├─ libevent 2.1.12 [required: >=2.1.12,<2.1.13.0a0]
+  │  │  │  │  └─ dependencies of libevent displayed above
+  │  │  │  ├─ libexpat 2.7.1 [required: >=2.6.2,<3.0a0]
+  │  │  │  │  └─ dependencies of libexpat displayed above
+  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  ├─ libglib 2.84.1 [required: >=2.80.3,<3.0a0]
+  │  │  │  │  └─ dependencies of libglib displayed above
+  │  │  │  ├─ libiconv 1.18 [required: >=1.17,<2.0a0]
+  │  │  │  │  └─ dependencies of libiconv displayed above
+  │  │  │  ├─ libjpeg-turbo 3.1.0 [required: >=3.0.0,<4.0a0]
+  │  │  │  │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  │  ├─ libopus 1.5.2 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  └─ dependencies of libopus displayed above
+  │  │  │  ├─ libpng 1.6.50 [required: >=1.6.43,<1.7.0a0]
+  │  │  │  │  └─ dependencies of libpng displayed above
+  │  │  │  ├─ libsqlite 3.50.4 [required: >=3.46.0,<4.0a0]
+  │  │  │  │  └─ dependencies of libsqlite displayed above
+  │  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  │  ├─ libwebp 1.6.0 [required: any]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ giflib 5.2.2 [required: >=5.2.2,<5.3.0a0]
+  │  │  │  │  │  └─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  │     └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libjpeg-turbo 3.1.0 [required: >=3.1.0,<4.0a0]
+  │  │  │  │  │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  │  │  ├─ libpng 1.6.50 [required: >=1.6.50,<1.7.0a0]
+  │  │  │  │  │  └─ dependencies of libpng displayed above
+  │  │  │  │  ├─ libtiff 4.7.0 [required: >=4.7.0,<4.8.0a0]
+  │  │  │  │  │  └─ dependencies of libtiff displayed above
+  │  │  │  │  └─ libwebp-base 1.6.0 [required: >=1.6.0,<2.0a0]
+  │  │  │  │     └─ dependencies of libwebp-base displayed above
+  │  │  │  ├─ libwebp-base 1.6.0 [required: >=1.4.0,<2.0a0]
+  │  │  │  │  └─ dependencies of libwebp-base displayed above
+  │  │  │  ├─ libxcb 1.17.0 [required: >=1.16,<2.0.0a0]
+  │  │  │  │  └─ dependencies of libxcb displayed above
+  │  │  │  ├─ libxkbcommon 1.11.0 [required: >=1.7.0,<2.0a0]
+  │  │  │  │  └─ dependencies of libxkbcommon displayed above
+  │  │  │  ├─ libxml2 2.13.8 [required: >=2.12.7,<2.14.0a0]
+  │  │  │  │  └─ dependencies of libxml2 displayed above
+  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  ├─ nspr 4.37 [required: >=4.35,<5.0a0]
+  │  │  │  │  └─ dependencies of nspr displayed above
+  │  │  │  ├─ nss 3.115 [required: >=3.102,<4.0a0]
+  │  │  │  │  └─ dependencies of nss displayed above
+  │  │  │  ├─ pulseaudio-client 17.0 [required: >=17.0,<17.1.0a0]
+  │  │  │  │  └─ dependencies of pulseaudio-client displayed above
+  │  │  │  ├─ qt-main 5.15.8 [required: >=5.15.8,<5.16.0a0]
+  │  │  │  │  └─ dependencies of qt-main displayed above
+  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.9,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  ├─ xorg-libxcomposite 0.4.6 [required: any]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  └─ xorg-libxfixes 6.0.1 [required: >=6.0.1,<7.0a0]
+  │  │  │  │     └─ dependencies of xorg-libxfixes displayed above
+  │  │  │  ├─ xorg-libxdamage 1.1.6 [required: any]
+  │  │  │  │  └─ dependencies of xorg-libxdamage displayed above
+  │  │  │  ├─ xorg-libxext 1.3.6 [required: >=1.3.4,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxext displayed above
+  │  │  │  ├─ xorg-libxfixes 6.0.1 [required: any]
+  │  │  │  │  └─ dependencies of xorg-libxfixes displayed above
+  │  │  │  ├─ xorg-libxrandr 1.5.4 [required: any]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  ├─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libxext displayed above
+  │  │  │  │  └─ xorg-libxrender 0.9.12 [required: >=0.9.11,<0.10.0a0]
+  │  │  │  │     └─ dependencies of xorg-libxrender displayed above
+  │  │  │  ├─ xorg-libxrender 0.9.12 [required: >=0.9.11,<0.10.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxrender displayed above
+  │  │  │  └─ xorg-libxtst 1.2.5 [required: any]
+  │  │  │     └─ dependencies of xorg-libxtst displayed above
+  │  │  └─ sip 6.7.12 [required: >=6.7.11,<6.8.0a0]
+  │  │     └─ dependencies of sip displayed above
+  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ qscintilla2 2.13.4 [required: >=2.13.4,<2.14.0a0]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  ├─ pyqt 5.15.9 [required: >=5.15.7,<5.16.0a0]
+  │  │  │  └─ dependencies of pyqt displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  │  ├─ qt-main 5.15.8 [required: >=5.15.6,<5.16.0a0]
+  │  │  │  └─ dependencies of qt-main displayed above
+  │  │  └─ sip 6.7.12 [required: >=6.7.5,<6.8.0a0]
+  │  │     └─ dependencies of sip displayed above
+  │  ├─ qt-gtk-platformtheme 5.15.8 [required: any]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ adwaita-icon-theme 48.1 [required: any]
+  │  │  │  ├─ __unix [required: any]
+  │  │  │  ├─ hicolor-icon-theme 0.17 [required: any]
+  │  │  │  └─ librsvg 2.58.4 [required: any]
+  │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │     ├─ cairo 1.18.4 [required: >=1.18.4,<2.0a0]
+  │  │  │     │  └─ dependencies of cairo displayed above
+  │  │  │     ├─ freetype 2.13.3 [required: >=2.13.3,<3.0a0]
+  │  │  │     │  └─ dependencies of freetype displayed above
+  │  │  │     ├─ gdk-pixbuf 2.42.12 [required: >=2.42.12,<3.0a0]
+  │  │  │     │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │     │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │     │  ├─ libglib 2.84.1 [required: >=2.80.2,<3.0a0]
+  │  │  │     │  │  └─ dependencies of libglib displayed above
+  │  │  │     │  ├─ libjpeg-turbo 3.1.0 [required: >=3.0.0,<4.0a0]
+  │  │  │     │  │  └─ dependencies of libjpeg-turbo displayed above
+  │  │  │     │  ├─ libpng 1.6.50 [required: >=1.6.43,<1.7.0a0]
+  │  │  │     │  │  └─ dependencies of libpng displayed above
+  │  │  │     │  └─ libtiff 4.7.0 [required: >=4.6.0,<4.8.0a0]
+  │  │  │     │     └─ dependencies of libtiff displayed above
+  │  │  │     ├─ harfbuzz 11.2.1 [required: >=11.0.0,<12.0a0]
+  │  │  │     │  └─ dependencies of harfbuzz displayed above
+  │  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │     │  └─ dependencies of libgcc displayed above
+  │  │  │     ├─ libglib 2.84.1 [required: >=2.84.0,<3.0a0]
+  │  │  │     │  └─ dependencies of libglib displayed above
+  │  │  │     ├─ libpng 1.6.50 [required: >=1.6.47,<1.7.0a0]
+  │  │  │     │  └─ dependencies of libpng displayed above
+  │  │  │     ├─ libxml2 2.13.8 [required: >=2.13.7,<2.14.0a0]
+  │  │  │     │  └─ dependencies of libxml2 displayed above
+  │  │  │     └─ pango 1.56.3 [required: >=1.56.3,<2.0a0]
+  │  │  │        ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │        ├─ cairo 1.18.4 [required: >=1.18.4,<2.0a0]
+  │  │  │        │  └─ dependencies of cairo displayed above
+  │  │  │        ├─ fontconfig 2.15.0 [required: >=2.15.0,<3.0a0]
+  │  │  │        │  └─ dependencies of fontconfig displayed above
+  │  │  │        ├─ fonts-conda-ecosystem 1 [required: any]
+  │  │  │        │  └─ dependencies of fonts-conda-ecosystem displayed above
+  │  │  │        ├─ freetype 2.13.3 [required: >=2.13.3,<3.0a0]
+  │  │  │        │  └─ dependencies of freetype displayed above
+  │  │  │        ├─ fribidi 1.0.10 [required: >=1.0.10,<2.0a0]
+  │  │  │        │  └─ libgcc-ng 15.1.0 [required: >=7.5.0]
+  │  │  │        │     └─ dependencies of libgcc-ng displayed above
+  │  │  │        ├─ harfbuzz 11.2.1 [required: >=11.0.0,<12.0a0]
+  │  │  │        │  └─ dependencies of harfbuzz displayed above
+  │  │  │        ├─ libexpat 2.7.1 [required: >=2.6.4,<3.0a0]
+  │  │  │        │  └─ dependencies of libexpat displayed above
+  │  │  │        ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │        │  └─ dependencies of libgcc displayed above
+  │  │  │        ├─ libglib 2.84.1 [required: >=2.84.0,<3.0a0]
+  │  │  │        │  └─ dependencies of libglib displayed above
+  │  │  │        ├─ libpng 1.6.50 [required: >=1.6.47,<1.7.0a0]
+  │  │  │        │  └─ dependencies of libpng displayed above
+  │  │  │        └─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │           └─ dependencies of libzlib displayed above
+  │  │  ├─ atk-1.0 2.38.0 [required: >=2.38.0]
+  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  ├─ libglib 2.84.1 [required: >=2.80.0,<3.0a0]
+  │  │  │  │  └─ dependencies of libglib displayed above
+  │  │  │  └─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │     └─ dependencies of libstdcxx-ng displayed above
+  │  │  ├─ cairo 1.18.4 [required: >=1.18.0,<2.0a0]
+  │  │  │  └─ dependencies of cairo displayed above
+  │  │  ├─ gdk-pixbuf 2.42.12 [required: >=2.42.10,<3.0a0]
+  │  │  │  └─ dependencies of gdk-pixbuf displayed above
+  │  │  ├─ gtk3 3.24.43 [required: >=3.24.41,<4.0a0]
+  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  ├─ at-spi2-atk 2.38.0 [required: >=2.38.0,<3.0a0]
+  │  │  │  │  ├─ at-spi2-core 2.40.3 [required: >=2.40.0,<2.41.0a0]
+  │  │  │  │  │  ├─ dbus 1.13.6 [required: >=1.13.6,<2.0a0]
+  │  │  │  │  │  │  └─ dependencies of dbus displayed above
+  │  │  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=9.3.0]
+  │  │  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  │  ├─ libglib 2.84.1 [required: >=2.68.3,<3.0a0]
+  │  │  │  │  │  │  └─ dependencies of libglib displayed above
+  │  │  │  │  │  ├─ xorg-libx11 1.8.12 [required: any]
+  │  │  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  │  ├─ xorg-libxi 1.8.2 [required: any]
+  │  │  │  │  │  │  └─ dependencies of xorg-libxi displayed above
+  │  │  │  │  │  └─ xorg-libxtst 1.2.5 [required: any]
+  │  │  │  │  │     └─ dependencies of xorg-libxtst displayed above
+  │  │  │  │  ├─ atk-1.0 2.38.0 [required: >=2.36.0]
+  │  │  │  │  │  └─ dependencies of atk-1.0 displayed above
+  │  │  │  │  ├─ dbus 1.13.6 [required: >=1.13.6,<2.0a0]
+  │  │  │  │  │  └─ dependencies of dbus displayed above
+  │  │  │  │  ├─ libgcc-ng 15.1.0 [required: >=9.3.0]
+  │  │  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  │  │  └─ libglib 2.84.1 [required: >=2.68.1,<3.0a0]
+  │  │  │  │     └─ dependencies of libglib displayed above
+  │  │  │  ├─ atk-1.0 2.38.0 [required: >=2.38.0]
+  │  │  │  │  └─ dependencies of atk-1.0 displayed above
+  │  │  │  ├─ cairo 1.18.4 [required: >=1.18.4,<2.0a0]
+  │  │  │  │  └─ dependencies of cairo displayed above
+  │  │  │  ├─ epoxy 1.5.10 [required: >=1.5.10,<1.6.0a0]
+  │  │  │  │  └─ libgcc-ng 15.1.0 [required: >=10.3.0]
+  │  │  │  │     └─ dependencies of libgcc-ng displayed above
+  │  │  │  ├─ fontconfig 2.15.0 [required: >=2.15.0,<3.0a0]
+  │  │  │  │  └─ dependencies of fontconfig displayed above
+  │  │  │  ├─ fonts-conda-ecosystem 1 [required: any]
+  │  │  │  │  └─ dependencies of fonts-conda-ecosystem displayed above
+  │  │  │  ├─ fribidi 1.0.10 [required: >=1.0.10,<2.0a0]
+  │  │  │  │  └─ dependencies of fribidi displayed above
+  │  │  │  ├─ gdk-pixbuf 2.42.12 [required: >=2.42.12,<3.0a0]
+  │  │  │  │  └─ dependencies of gdk-pixbuf displayed above
+  │  │  │  ├─ glib-tools 2.84.1 [required: any]
+  │  │  │  │  └─ dependencies of glib-tools displayed above
+  │  │  │  ├─ harfbuzz 11.2.1 [required: >=11.0.0,<12.0a0]
+  │  │  │  │  └─ dependencies of harfbuzz displayed above
+  │  │  │  ├─ hicolor-icon-theme 0.17 [required: any]
+  │  │  │  ├─ libcups 2.3.3 [required: >=2.3.3,<3.0a0]
+  │  │  │  │  └─ dependencies of libcups displayed above
+  │  │  │  ├─ libexpat 2.7.1 [required: >=2.6.4,<3.0a0]
+  │  │  │  │  └─ dependencies of libexpat displayed above
+  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  ├─ libglib 2.84.1 [required: >=2.84.0,<3.0a0]
+  │  │  │  │  └─ dependencies of libglib displayed above
+  │  │  │  ├─ liblzma 5.8.1 [required: >=5.6.4,<6.0a0]
+  │  │  │  │  └─ dependencies of liblzma displayed above
+  │  │  │  ├─ libxkbcommon 1.11.0 [required: >=1.8.1,<2.0a0]
+  │  │  │  │  └─ dependencies of libxkbcommon displayed above
+  │  │  │  ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │  │  │  │  └─ dependencies of libzlib displayed above
+  │  │  │  ├─ pango 1.56.3 [required: >=1.56.3,<2.0a0]
+  │  │  │  │  └─ dependencies of pango displayed above
+  │  │  │  ├─ wayland 1.24.0 [required: >=1.23.1,<2.0a0]
+  │  │  │  │  └─ dependencies of wayland displayed above
+  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.12,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  ├─ xorg-libxcomposite 0.4.6 [required: >=0.4.6,<1.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxcomposite displayed above
+  │  │  │  ├─ xorg-libxcursor 1.2.3 [required: >=1.2.3,<2.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  ├─ xorg-libxfixes 6.0.1 [required: >=6.0.1,<7.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libxfixes displayed above
+  │  │  │  │  └─ xorg-libxrender 0.9.12 [required: >=0.9.11,<0.10.0a0]
+  │  │  │  │     └─ dependencies of xorg-libxrender displayed above
+  │  │  │  ├─ xorg-libxdamage 1.1.6 [required: >=1.1.6,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxdamage displayed above
+  │  │  │  ├─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxext displayed above
+  │  │  │  ├─ xorg-libxfixes 6.0.1 [required: >=6.0.1,<7.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxfixes displayed above
+  │  │  │  ├─ xorg-libxi 1.8.2 [required: >=1.8.2,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxi displayed above
+  │  │  │  ├─ xorg-libxinerama 1.1.5 [required: >=1.1.5,<1.2.0a0]
+  │  │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  │  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  │  │  ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │  │  │  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.10,<2.0a0]
+  │  │  │  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  │  │  │  └─ xorg-libxext 1.3.6 [required: >=1.3.6,<2.0a0]
+  │  │  │  │     └─ dependencies of xorg-libxext displayed above
+  │  │  │  ├─ xorg-libxrandr 1.5.4 [required: >=1.5.4,<2.0a0]
+  │  │  │  │  └─ dependencies of xorg-libxrandr displayed above
+  │  │  │  └─ xorg-libxrender 0.9.12 [required: >=0.9.12,<0.10.0a0]
+  │  │  │     └─ dependencies of xorg-libxrender displayed above
+  │  │  ├─ libgcc-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libgcc-ng displayed above
+  │  │  ├─ libglib 2.84.1 [required: >=2.80.0,<3.0a0]
+  │  │  │  └─ dependencies of libglib displayed above
+  │  │  ├─ libstdcxx-ng 15.1.0 [required: >=12]
+  │  │  │  └─ dependencies of libstdcxx-ng displayed above
+  │  │  ├─ pango 1.56.3 [required: >=1.50.14,<2.0a0]
+  │  │  │  └─ dependencies of pango displayed above
+  │  │  ├─ qt-main 5.15.8 [required: >=5.15.8,<5.16.0a0]
+  │  │  │  └─ dependencies of qt-main displayed above
+  │  │  └─ xorg-libxinerama 1.1.5 [required: >=1.1.5,<1.2.0a0]
+  │  │     └─ dependencies of xorg-libxinerama displayed above
+  │  ├─ qt-main 5.15.8 [required: >=5.15.8,<5.16.0a0]
+  │  │  └─ dependencies of qt-main displayed above
+  │  ├─ qt-webengine 5.15.8 [required: >=5.15.8,<5.16.0a0]
+  │  │  └─ dependencies of qt-webengine displayed above
+  │  ├─ qtpy 2.4.3 [required: >=2.4,!=2.4.2]
+  │  │  ├─ packaging 25.0 [required: any]
+  │  │  │  └─ dependencies of packaging displayed above
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ tbb 2022.2.0 [required: >=2021.13.0]
+  │  │  └─ dependencies of tbb displayed above
+  │  ├─ xorg-libx11 1.8.12 [required: >=1.8.12,<2.0a0]
+  │  │  └─ dependencies of xorg-libx11 displayed above
+  │  └─ xorg-libxxf86vm 1.1.6 [required: >=1.1.6,<2.0a0]
+  │     └─ dependencies of xorg-libxxf86vm displayed above
+  ├─ matplotlib 3.9.4 [required: any]
+  │  └─ dependencies of matplotlib displayed above
+  ├─ numpy 2.1.3 [required: any]
+  │  └─ dependencies of numpy displayed above
+  ├─ pip 25.2 [required: any]
+  │  ├─ python 3.11.13 [required: >=3.9,<3.13.0a0]
+  │  ├─ setuptools 80.9.0 [required: any]
+  │  │  └─ dependencies of setuptools displayed above
+  │  └─ wheel 0.45.1 [required: any]
+  │     └─ python 3.11.13 [required: >=3.9]
+  ├─ pre-commit 4.3.0 [required: any]
+  │  ├─ cfgv 3.3.1 [required: >=2.0.0]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ identify 2.6.13 [required: >=1.0.0]
+  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  └─ ukkonen 1.0.1 [required: any]
+  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │     ├─ cffi 1.17.1 [required: any]
+  │  │     │  └─ dependencies of cffi displayed above
+  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │  │     │  └─ dependencies of libgcc displayed above
+  │  │     ├─ libstdcxx 15.1.0 [required: >=13]
+  │  │     │  └─ dependencies of libstdcxx displayed above
+  │  │     ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │     └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ nodeenv 1.9.1 [required: >=0.11.1]
+  │  │  ├─ python 3.11.13 [required: >=3.9]
+  │  │  └─ setuptools 80.9.0 [required: any]
+  │  │     └─ dependencies of setuptools displayed above
+  │  ├─ python 3.11.13 [required: >=3.9]
+  │  ├─ pyyaml 6.0.2 [required: >=5.1]
+  │  │  └─ dependencies of pyyaml displayed above
+  │  └─ virtualenv 20.34.0 [required: >=20.10.0]
+  │     ├─ distlib 0.4.0 [required: >=0.3.7,<1]
+  │     │  └─ python 3.11.13 [required: >=3.9]
+  │     ├─ filelock 3.19.1 [required: >=3.12.2,<4]
+  │     │  └─ python 3.11.13 [required: >=3.9]
+  │     ├─ platformdirs 4.4.0 [required: >=3.9.1,<5]
+  │     │  └─ dependencies of platformdirs displayed above
+  │     ├─ python 3.11.13 [required: >=3.9]
+  │     └─ typing_extensions 4.15.0 [required: >=4.13.2]
+  │        └─ dependencies of typing_extensions displayed above
+  ├─ pyqt 5.15.9 [required: any]
+  │  └─ dependencies of pyqt displayed above
+  ├─ python 3.11.13 [required: any]
+  ├─ qtawesome 1.4.0 [required: any]
+  │  ├─ python 3.11.13 [required: >=3.9]
+  │  └─ qtpy 2.4.3 [required: any]
+  │     └─ dependencies of qtpy displayed above
+  ├─ qtconsole 5.6.1 [required: any]
+  │  ├─ pyqt 5.15.9 [required: any]
+  │  │  └─ dependencies of pyqt displayed above
+  │  ├─ python 3.11.13 [required: >=3.9]
+  │  └─ qtconsole-base 5.6.1 [required: >=5.6.1,<5.6.2.0a0]
+  │     ├─ ipykernel 6.30.1 [required: >=4.1]
+  │     │  ├─ __linux [required: any]
+  │     │  ├─ comm 0.2.3 [required: >=0.1.1]
+  │     │  │  └─ dependencies of comm displayed above
+  │     │  ├─ debugpy 1.8.16 [required: >=1.6.5]
+  │     │  │  ├─ python 3.11.13 [required: any]
+  │     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │     │  │  │  └─ dependencies of libstdcxx displayed above
+  │     │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │     │  │  │  └─ dependencies of libgcc displayed above
+  │     │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │     │  ├─ ipython 9.4.0 [required: >=7.23.1]
+  │     │  │  └─ dependencies of ipython displayed above
+  │     │  ├─ jupyter_client 8.6.3 [required: >=8.0.0]
+  │     │  │  ├─ importlib-metadata 8.7.0 [required: >=4.8.3]
+  │     │  │  │  ├─ python 3.11.13 [required: any]
+  │     │  │  │  └─ zipp 3.23.0 [required: >=3.20]
+  │     │  │  │     └─ dependencies of zipp displayed above
+  │     │  │  ├─ jupyter_core 5.8.1 [required: >=4.12,!=5.0.*]
+  │     │  │  │  ├─ __unix [required: any]
+  │     │  │  │  ├─ platformdirs 4.4.0 [required: >=2.5]
+  │     │  │  │  │  └─ dependencies of platformdirs displayed above
+  │     │  │  │  ├─ python 3.11.13 [required: >=3.8]
+  │     │  │  │  └─ traitlets 5.14.3 [required: >=5.3]
+  │     │  │  │     └─ dependencies of traitlets displayed above
+  │     │  │  ├─ python 3.11.13 [required: >=3.9]
+  │     │  │  ├─ python-dateutil 2.9.0.post0 [required: >=2.8.2]
+  │     │  │  │  └─ dependencies of python-dateutil displayed above
+  │     │  │  ├─ pyzmq 27.0.2 [required: >=23.0]
+  │     │  │  │  ├─ python 3.11.13 [required: any]
+  │     │  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     │  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │     │  │  │  │  └─ dependencies of libgcc displayed above
+  │     │  │  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │     │  │  │  │  └─ dependencies of libstdcxx displayed above
+  │     │  │  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │     │  │  │  └─ zeromq 4.3.5 [required: >=4.3.5,<4.4.0a0]
+  │     │  │  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     │  │  │     ├─ krb5 1.21.3 [required: >=1.21.3,<1.22.0a0]
+  │     │  │  │     │  └─ dependencies of krb5 displayed above
+  │     │  │  │     ├─ libgcc 15.1.0 [required: >=13]
+  │     │  │  │     │  └─ dependencies of libgcc displayed above
+  │     │  │  │     ├─ libsodium 1.0.20 [required: >=1.0.20,<1.0.21.0a0]
+  │     │  │  │     │  └─ libgcc-ng 15.1.0 [required: >=12]
+  │     │  │  │     │     └─ dependencies of libgcc-ng displayed above
+  │     │  │  │     └─ libstdcxx 15.1.0 [required: >=13]
+  │     │  │  │        └─ dependencies of libstdcxx displayed above
+  │     │  │  ├─ tornado 6.5.2 [required: >=6.2]
+  │     │  │  │  └─ dependencies of tornado displayed above
+  │     │  │  └─ traitlets 5.14.3 [required: >=5.3]
+  │     │  │     └─ dependencies of traitlets displayed above
+  │     │  ├─ jupyter_core 5.8.1 [required: >=4.12,!=5.0.*]
+  │     │  │  └─ dependencies of jupyter_core displayed above
+  │     │  ├─ matplotlib-inline 0.1.7 [required: >=0.1]
+  │     │  │  └─ dependencies of matplotlib-inline displayed above
+  │     │  ├─ nest-asyncio 1.6.0 [required: >=1.4]
+  │     │  │  └─ python 3.11.13 [required: >=3.9]
+  │     │  ├─ packaging 25.0 [required: >=22]
+  │     │  │  └─ dependencies of packaging displayed above
+  │     │  ├─ psutil 7.0.0 [required: >=5.7]
+  │     │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │     │  │  │  └─ dependencies of libgcc displayed above
+  │     │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │     │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │     │  ├─ python 3.11.13 [required: >=3.9]
+  │     │  ├─ pyzmq 27.0.2 [required: >=25]
+  │     │  │  └─ dependencies of pyzmq displayed above
+  │     │  ├─ tornado 6.5.2 [required: >=6.2]
+  │     │  │  └─ dependencies of tornado displayed above
+  │     │  └─ traitlets 5.14.3 [required: >=5.4.0]
+  │     │     └─ dependencies of traitlets displayed above
+  │     ├─ jupyter_client 8.6.3 [required: >=4.1]
+  │     │  └─ dependencies of jupyter_client displayed above
+  │     ├─ jupyter_core 5.8.1 [required: any]
+  │     │  └─ dependencies of jupyter_core displayed above
+  │     ├─ packaging 25.0 [required: any]
+  │     │  └─ dependencies of packaging displayed above
+  │     ├─ pygments 2.19.2 [required: any]
+  │     │  └─ dependencies of pygments displayed above
+  │     ├─ python 3.11.13 [required: >=3.9]
+  │     ├─ qtpy 2.4.3 [required: >=2.4.0]
+  │     │  └─ dependencies of qtpy displayed above
+  │     └─ traitlets 5.14.3 [required: any]
+  │        └─ dependencies of traitlets displayed above
+  ├─ qtpy 2.4.3 [required: any]
+  │  └─ dependencies of qtpy displayed above
+  └─ setuptools 80.9.0 [required: any]
+     └─ dependencies of setuptools displayed above
+lmfit==1.3.4
+  ├─ asteval 1.0.6 [required: >=1.0.0]
+  │  ├─ numpy 2.1.3 [required: >=1.22]
+  │  │  └─ dependencies of numpy displayed above
+  │  ├─ pip 25.2 [required: any]
+  │  │  └─ dependencies of pip displayed above
+  │  ├─ python 3.11.13 [required: >=3.8]
+  │  ├─ setuptools 80.9.0 [required: any]
+  │  │  └─ dependencies of setuptools displayed above
+  │  └─ setuptools-scm 9.2.0 [required: any]
+  │     ├─ importlib-metadata 8.7.0 [required: any]
+  │     │  └─ dependencies of importlib-metadata displayed above
+  │     ├─ packaging 25.0 [required: >=20.0]
+  │     │  └─ dependencies of packaging displayed above
+  │     ├─ python 3.11.13 [required: >=3.9]
+  │     ├─ setuptools 80.9.0 [required: >=45]
+  │     │  └─ dependencies of setuptools displayed above
+  │     ├─ tomli 2.2.1 [required: >=1.0.0]
+  │     │  └─ dependencies of tomli displayed above
+  │     └─ typing-extensions 4.15.0 [required: any]
+  │        └─ dependencies of typing-extensions displayed above
+  ├─ dill 0.4.0 [required: >=0.3.4]
+  │  └─ python 3.11.13 [required: >=3.9]
+  ├─ numpy 2.1.3 [required: >=1.19]
+  │  └─ dependencies of numpy displayed above
+  ├─ pip 25.2 [required: any]
+  │  └─ dependencies of pip displayed above
+  ├─ python 3.11.13 [required: >=3.9]
+  ├─ scipy 1.16.1 [required: >=1.6]
+  │  └─ dependencies of scipy displayed above
+  ├─ setuptools 80.9.0 [required: any]
+  │  └─ dependencies of setuptools displayed above
+  └─ uncertainties 3.2.3 [required: >=3.2.1]
+     ├─ future 1.0.0 [required: any]
+     │  └─ python 3.11.13 [required: >=3.9]
+     ├─ numpy 2.1.3 [required: any]
+     │  └─ dependencies of numpy displayed above
+     └─ python 3.11.13 [required: >=3.9]
+pyoncat==2.1
+  ├─ oauthlib 3.3.1 [required: any]
+  │  ├─ blinker 1.9.0 [required: any]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ cryptography 45.0.6 [required: any]
+  │  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  │  ├─ cffi 1.17.1 [required: >=1.12]
+  │  │  │  └─ dependencies of cffi displayed above
+  │  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  │  └─ dependencies of libgcc displayed above
+  │  │  ├─ openssl 3.5.2 [required: >=3.5.2,<4.0a0]
+  │  │  │  └─ dependencies of openssl displayed above
+  │  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  ├─ pyjwt 2.10.1 [required: >=1.0.0]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  └─ python 3.11.13 [required: >=3.9]
+  ├─ python 3.11.13 [required: any]
+  ├─ requests 2.32.5 [required: any]
+  │  ├─ certifi 2025.8.3 [required: >=2017.4.17]
+  │  │  └─ dependencies of certifi displayed above
+  │  ├─ charset-normalizer 3.4.3 [required: >=2,<4]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ idna 3.10 [required: >=2.5,<4]
+  │  │  └─ python 3.11.13 [required: >=3.9]
+  │  ├─ python 3.11.13 [required: >=3.9]
+  │  └─ urllib3 2.5.0 [required: >=1.21.1,<3]
+  │     └─ dependencies of urllib3 displayed above
+  └─ requests-oauthlib 2.0.0 [required: any]
+     ├─ oauthlib 3.3.1 [required: >=3.0.0]
+     │  └─ dependencies of oauthlib displayed above
+     ├─ python 3.11.13 [required: >=3.9]
+     └─ requests 2.32.5 [required: >=2.0.0]
+        └─ dependencies of requests displayed above
+pyinotify==0.9.6
+  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+mantidworkbench==6.13.1.2
+  ├─ ipykernel 6.30.1 [required: any]
+  │  └─ dependencies of ipykernel displayed above
+  ├─ libgl 1.7.0 [required: >=1.7.0,<2.0a0]
+  │  └─ dependencies of libgl displayed above
+  ├─ lz4 4.4.4 [required: any]
+  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  ├─ libgcc 15.1.0 [required: >=13]
+  │  │  └─ dependencies of libgcc displayed above
+  │  ├─ lz4-c 1.10.0 [required: >=1.10.0,<1.11.0a0]
+  │  │  └─ dependencies of lz4-c displayed above
+  │  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  │  └─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  ├─ mantidqt 6.13.1.2 [required: >=6.13.1.2,<6.13.2.0a0]
+  │  └─ dependencies of mantidqt displayed above
+  ├─ matplotlib 3.9.4 [required: 3.9.*]
+  │  └─ dependencies of matplotlib displayed above
+  ├─ psutil 7.0.0 [required: >=5.8.0]
+  │  └─ dependencies of psutil displayed above
+  ├─ pystack 1.5.1 [required: any]
+  │  ├─ python 3.11.13 [required: any]
+  │  ├─ libstdcxx 15.1.0 [required: >=14]
+  │  │  └─ dependencies of libstdcxx displayed above
+  │  ├─ libgcc 15.1.0 [required: >=14]
+  │  │  └─ dependencies of libgcc displayed above
+  │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  │  └─ elfutils 0.193 [required: >=0.193,<0.194.0a0]
+  │     ├─ libgcc 15.1.0 [required: >=14]
+  │     │  └─ dependencies of libgcc displayed above
+  │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     ├─ libstdcxx 15.1.0 [required: >=14]
+  │     │  └─ dependencies of libstdcxx displayed above
+  │     ├─ libsqlite 3.50.4 [required: >=3.50.3,<4.0a0]
+  │     │  └─ dependencies of libsqlite displayed above
+  │     ├─ libmicrohttpd 1.0.2 [required: >=1.0.2,<1.1.0a0]
+  │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     │  ├─ libgcc 15.1.0 [required: >=14]
+  │     │  │  └─ dependencies of libgcc displayed above
+  │     │  └─ gnutls 3.8.9 [required: >=3.8.9,<3.9.0a0]
+  │     │     ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     │     ├─ libgcc 15.1.0 [required: >=13]
+  │     │     │  └─ dependencies of libgcc displayed above
+  │     │     ├─ libidn2 2.3.8 [required: >=2,<3.0a0]
+  │     │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     │     │  ├─ libasprintf 0.25.1 [required: >=0.23.1,<1.0a0]
+  │     │     │  │  └─ dependencies of libasprintf displayed above
+  │     │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │     │     │  │  └─ dependencies of libgcc displayed above
+  │     │     │  ├─ libgettextpo 0.25.1 [required: >=0.23.1,<1.0a0]
+  │     │     │  │  └─ dependencies of libgettextpo displayed above
+  │     │     │  └─ libunistring 0.9.10 [required: >=0,<1.0a0]
+  │     │     │     └─ libgcc-ng 15.1.0 [required: >=9.3.0]
+  │     │     │        └─ dependencies of libgcc-ng displayed above
+  │     │     ├─ libstdcxx 15.1.0 [required: >=13]
+  │     │     │  └─ dependencies of libstdcxx displayed above
+  │     │     ├─ libtasn1 4.20.0 [required: >=4.20.0,<5.0a0]
+  │     │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     │     │  └─ libgcc 15.1.0 [required: >=13]
+  │     │     │     └─ dependencies of libgcc displayed above
+  │     │     ├─ nettle 3.10.1 [required: >=3.10.1,<3.11.0a0]
+  │     │     │  ├─ __glibc [required: >=2.17,<3.0.a0]
+  │     │     │  ├─ libgcc 15.1.0 [required: >=13]
+  │     │     │  │  └─ dependencies of libgcc displayed above
+  │     │     │  └─ gmp 6.3.0 [required: >=6.3.0,<7.0a0]
+  │     │     │     ├─ libgcc-ng 15.1.0 [required: >=12]
+  │     │     │     │  └─ dependencies of libgcc-ng displayed above
+  │     │     │     └─ libstdcxx-ng 15.1.0 [required: >=12]
+  │     │     │        └─ dependencies of libstdcxx-ng displayed above
+  │     │     └─ p11-kit 0.24.1 [required: >=0.24.1,<0.25.0a0]
+  │     │        ├─ libffi 3.4.6 [required: >=3.4.2,<3.5.0a0]
+  │     │        │  └─ dependencies of libffi displayed above
+  │     │        ├─ libgcc-ng 15.1.0 [required: >=12]
+  │     │        │  └─ dependencies of libgcc-ng displayed above
+  │     │        └─ libtasn1 4.20.0 [required: >=4.18.0,<5.0a0]
+  │     │           └─ dependencies of libtasn1 displayed above
+  │     ├─ liblzma 5.8.1 [required: >=5.8.1,<6.0a0]
+  │     │  └─ dependencies of liblzma displayed above
+  │     ├─ zstd 1.5.7 [required: >=1.5.7,<1.6.0a0]
+  │     │  └─ dependencies of zstd displayed above
+  │     ├─ libcurl 8.14.1 [required: >=8.14.1,<9.0a0]
+  │     │  └─ dependencies of libcurl displayed above
+  │     ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │     │  └─ dependencies of libzlib displayed above
+  │     ├─ bzip2 1.0.8 [required: >=1.0.8,<2.0a0]
+  │     │  └─ dependencies of bzip2 displayed above
+  │     └─ libarchive 3.8.1 [required: >=3.8.1,<3.9.0a0]
+  │        ├─ __glibc [required: >=2.17,<3.0.a0]
+  │        ├─ bzip2 1.0.8 [required: >=1.0.8,<2.0a0]
+  │        │  └─ dependencies of bzip2 displayed above
+  │        ├─ libgcc 15.1.0 [required: >=13]
+  │        │  └─ dependencies of libgcc displayed above
+  │        ├─ liblzma 5.8.1 [required: >=5.8.1,<6.0a0]
+  │        │  └─ dependencies of liblzma displayed above
+  │        ├─ libxml2 2.13.8 [required: >=2.13.8,<2.14.0a0]
+  │        │  └─ dependencies of libxml2 displayed above
+  │        ├─ libzlib 1.3.1 [required: >=1.3.1,<2.0a0]
+  │        │  └─ dependencies of libzlib displayed above
+  │        ├─ lz4-c 1.10.0 [required: >=1.10.0,<1.11.0a0]
+  │        │  └─ dependencies of lz4-c displayed above
+  │        ├─ lzo 2.10 [required: >=2.10,<3.0a0]
+  │        │  ├─ libgcc 15.1.0 [required: >=14]
+  │        │  │  └─ dependencies of libgcc displayed above
+  │        │  └─ __glibc [required: >=2.17,<3.0.a0]
+  │        ├─ openssl 3.5.2 [required: >=3.5.0,<4.0a0]
+  │        │  └─ dependencies of openssl displayed above
+  │        └─ zstd 1.5.7 [required: >=1.5.7,<1.6.0a0]
+  │           └─ dependencies of zstd displayed above
+  ├─ python 3.11.13 [required: >=3.11,<3.12.0a0]
+  ├─ python_abi 3.11 [required: 3.11.*, *_cp311]
+  ├─ qtconsole 5.6.1 [required: >5.5.0]
+  │  └─ dependencies of qtconsole displayed above
+  ├─ setuptools 80.9.0 [required: >=80.9.0,<80.10.0a0]
+  │  └─ dependencies of setuptools displayed above
+  ├─ xorg-libx11 1.8.12 [required: >=1.8.12,<2.0a0]
+  │  └─ dependencies of xorg-libx11 displayed above
+  └─ xorg-libxxf86vm 1.1.6 [required: >=1.1.6,<2.0a0]
+     └─ dependencies of xorg-libxxf86vm displayed above
+
+For the sake of clarity, some redundancies have been hidden.
+Please use the '--full' option to display them anyway.
