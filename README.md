@@ -2,45 +2,47 @@
 
 ## Agenda
 
-### Set up 
+### Set up
 1. Log into `analysis.sns.gov`
 2. Run script `start_jupyter.sh` provided by Jean B. in /SNS/EXAMPLES/NXS2025/
 
-### Intro presentation (powerpoint) 30-45 mins. 
- * What is scientific software (MG) 
- * Version control: Git and GitHub (MG) 
- * Environment management (micromamba, pixi and pip) (JB): 
- * Running python options: scripts, python interpreter, IDE, jupyter (JB) 
- * Intro to file systems at ORNL. Where are my neutron data stored? Oncat (AS) 
+### Intro presentation (powerpoint) 30-45 mins.
+ * What is scientific software (MG)
+ * Version control: Git and GitHub (MG)
+ * Environment management (micromamba, pixi and pip) (JB):
+ * Running python options: scripts, python interpreter, IDE, jupyter (JB)
+ * Intro to file systems at ORNL. Where are my neutron data stored? Oncat (AS)
  * AI (YZ)
 
-### Tutorial  
+### Tutorial
 
 #### Malcolm tutorial
 
 * create a git repo
 
 #### Jean tutorial
- 
- * Open notebook, Explanation of notebook (shift enter, shift enter...) 
- * Cell: imports:  
- * Exercise 1: Import data from ascii to numpy array. Do this multiple ways. Mention pandas. 
- * Exercise 2: Plot with matplotlib. Make it interactive. Show errors? 
- * Exercise 3: Extend script to for loop over multiple files 
- * Exercise 4: Create widget to do Exercise 3.  
 
-BREAK (AS) 
+ * Open notebook, Explanation of notebook (shift enter, shift enter...)
+ * Cell: imports:
+ * Exercise 1: Import data from ascii to numpy array. Do this multiple ways. Mention pandas.
+ * Exercise 2: Plot with matplotlib. Make it interactive. Show errors?
+ * Exercise 3: Extend script to for loop over multiple files
+ * Exercise 4: Create widget to do Exercise 3.
 
-#### Zach Tutorial 2 
+BREAK (AS)
 
- * Exercise 4 (SciPy): Set up fit to a peak: initial conditions, define to fit, define residual, define fit range, interpret errors (variance-covariance matrix) 
- * Exercise 5: Use LMFIT for same process.  
- * Advanced Exercise 1: Event data: Inspect nxs file with HDFView, 
- * Load neutron data and log metadata from nxs file with h5py. 
- * Advanced Ex 2: histogram events (with log binning) 
- * Super Advanced Ex 3: Re-use fitting script, fit peaks, plot position versus experimental log.   
+#### Zach Tutorial 2
+
+ * Exercise 4 (SciPy): Set up fit to a peak: initial conditions, define to fit, define residual, define fit range, interpret errors (variance-covariance matrix)
+ * Exercise 5: Use LMFIT for same process.
+ * Advanced Exercise 1: Event data: Inspect nxs file with HDFView,
+ * Load neutron data and log metadata from nxs file with h5py.
+ * Advanced Ex 2: histogram events (with log binning)
+ * Super Advanced Ex 3: Re-use fitting script, fit peaks, plot position versus experimental log.
 
 #### AI Tutorial 3
+
+ > This is not actually a tutorial but rather a brief walkthrough and showcase of LLM and relevant tools.
 
  * Brief intro to LLM and relevant techniques (e.g., `RAG`), from a research user point of view.
  * Tools for research
